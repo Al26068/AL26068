@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script src="script.js"></script>
+
+<nav class="navbar">
+    <h2 class="logo" data-ja="My Portfolio" data-en="My Portfolio">My Portfolio</h2>
+    <ul>
+        <div class="language">
+            <li>
+        <button onclick="changeLang('ja')">日本語</button>
+        <button onclick="changeLang('en')">ENGLISH</button>
+        </div></li>
+        <li><a href="#" data-ja="ホーム" data-en="Home">Home</a></li>
+        <li><a href="#about" data-ja="My" data-en="About">About</a></li>
+        <li><a href="#games" data-ja="ゲーム🎮" data-en="Games🎮">Gmaes</a></li>
+        <li><a href="#works" data-ja="記事📝" data-en="Works📝">Works</a></li>
+    </ul>
+</nav>
+
+<section class="section">
+    <h2 id="about">About</h2>
+    <div class="profile-content">
+        <div class="profile-left">
+            <p data-ja="★名前" data-en="★name">★ 名前</p>
+            <p data-ja="★誕生日" data-en="★Birthday">★ 誕生日</p>
+            <p data-ja="★出身" data-en="★HomeTown">★ 出身</p>
+            <p data-ja="★サークル" data-en="★Club">★ サークル</p>
+            <p data-ja="★一言！" data-en="★Comment!">★ 一言！！</p>
+        </div>
+        <div class="profile-right">
+            <p data-ja="平井真樹" data-en="Masaki Hirai">平井 真樹</p>
+            <p data-ja="８月２３日（乙女座）" data-en="August 23 Virgo">8月23日（乙女座）</p>
+            <p data-ja="東京都 渋谷区" data-en="Shibuya,Tokyo">東京都 渋谷区</p>
+            <div class="circle">
+            <a href="https://www.instagram.com/shibayoko_sit/"data-ja="しばよこ" data-en="しばよこ">しばよこ</a>
+            <span> / </span>
+            <a href="https://www.instagram.com/shiby_sit/" data-ja="Shiby" data-en="Shiby">Shiby</a>
+            <span> / </span>
+            <a href="https://ja1yxp.radio/" data-jp="無線研究部" data-en="ja1yxp">無線研究部</a>
+            </div>
+            <p data-ja="友達増やしたいです！" data-en="I wanna talk with U :)">友達増やしたいです！</p>
+    </div>
+</section>
+
+<section>
+    <h2 id="games" data-ja="ゲーム" data-en="Games">Games</h2>
+<div class="games">
+    <div class="game">
+    <a href="https://genshin.hoyoverse.com/ja/home" target="_blank"><img src="game1-1.png"></a>
+    </div>
+    <div class="game"><a href="https://overwatch.blizzard.com/ja-jp/"target="_blank"><img src="game1-2.png"></a></div>
+    <div class="game"><a href="https://playvalorant.com/ja-jp/"target="_blank"><img src="game1-3.png"></a></div>
+    
+</div>
+</section>
+
+<section class="section">
+    <h2 id="works" data-ja="記事・作品" data-en="Works">記事・作品</h2>
+</section>
+
+<div class="cards">
+
+    <a href="work1.html" class="card-link">
+        <div class="card">
+            <h2 data-ja="選挙フォーム" data-en="ElecctionForms">選挙フォーム</h2>
+            <p data-ja="高校の時に作成しました" data-en="I made it in Year11">高校の時に作成しました<br>要確認★</p>
+        </div>
+    </a>
+
+    <a href="work2.html" class="card-link">
+        <div class="card">
+            <h2 data-ja="個人PBL" data-en="Private Work">個人PBL</h2>
+            <p data-ja="C言語の課題です。<br>絶対見てね★" data-en="C language assignment.<br>Check it out!">C言語の課題です。<br>絶対見てね★</p>
+    </div>
+    </a>
+
+    <a href="work3.html" class="card-link">
+        <div class="card">
+            <h2 data-ja="班PBL" data-en="Group PBL">班PBL</h2>
+            <p data-ja="Technologia班<br>で作った作品です" data-en="Our Grop Works">Technologia班<br>で作った作品です</p>
+        </div>
+    </a>
+
+    <a href="work4.html" class="card-link">
+        <div class="card">
+            <h2 data-ja="開発秘話" data-en="sepcial Talks">班PBL</h2>
+            <p data-ja="本ページのコード解説です" data-en="about html/css/js">Technologia班<br>で作った作品です</p>
+        </div>
+    </a>
+</div>
+<footer>
+        <b class="footer" data-ja="Ⓒ 2026 Masaki Hirai All rights reserved" data-en="Ⓒ 2026 Masaki Hirai All rights reserved">Ⓒ 2026 Masaki Hirai All rights reserved</b>
+    </footer>
+</body>
+</html>
