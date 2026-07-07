@@ -1,3 +1,82 @@
+// ==============================
+// 写真を追加する時はここだけ編集！
+// ==============================
+const slides = [
+    {
+        file: 'hongkong1.png',
+        name: '香港 Victoria Peak',
+        mapUrl: 'https://maps.google.com/?q=Victoria+Peak,Hong+Kong'
+    },
+    {
+        file: 'hongkong2.png',
+        name: '香港 Sham Shui Po',
+        mapUrl:'https://maps.app.goo.gl/pG7fDTU9SMS9iR3t8'
+    },
+    {
+        file: 'shibuya1.png',
+        name: '日本 Shibuya scramble cross',
+        mapUrl:'https://maps.app.goo.gl/jTJUrkpdgGuF1q1S9'
+    },
+    {
+        file: 'hongkong3.png',
+        name: '香港 Shek Tong Tsui',
+        mapUrl: 'https://maps.app.goo.gl/tbUStMNLL4q7X3aY6'
+    }
+    // 写真追加例↓（コピペして使ってね）
+    // {
+    //     file: '写真2.jpg',
+    //     name: '渋谷 スクランブル交差点',
+    //     mapUrl: 'https://maps.google.com/?q=Shibuya+Scramble+Crossing,Tokyo'
+    // },
+];
+
+// スライドショー初期化
+function initSlideshow() {
+    if (slides.length <= 1) return; // 写真1枚なら切り替えなし
+
+    const container = document.getElementById('bgSlideshow');
+    const label = document.getElementById('locationLabel');
+    const nameEl = label.querySelector('.loc-name');
+    const linkEl = label.querySelector('.loc-link');
+
+    // HTMLのスライドdivを動的に生成（slides配列から）
+    container.innerHTML = '';
+    slides.forEach((s, i) => {
+        const div = document.createElement('div');
+        div.className = 'bg-slide' + (i === 0 ? ' active' : '');
+        div.style.backgroundImage = `url('${s.file}')`;
+        container.appendChild(div);
+    });
+
+    let current = 0;
+    const divs = container.querySelectorAll('.bg-slide');
+
+    function goTo(next) {
+        // ラベルをフェードアウト
+        label.classList.remove('visible');
+
+        setTimeout(() => {
+            divs[current].classList.remove('active');
+            current = next;
+            divs[current].classList.add('active');
+
+            // ラベル更新してフェードイン
+            nameEl.textContent = slides[current].name;
+            linkEl.href = slides[current].mapUrl;
+            label.classList.add('visible');
+        }, 1000);
+    }
+
+    // 6秒ごとに切り替え
+    setInterval(() => {
+        goTo((current + 1) % slides.length);
+    }, 6000);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    initSlideshow();
+});
+
 //言語変更モジュール
  function changeLang(lang){ 
    const elements = document.querySelectorAll("[data-ja]");
@@ -10,7 +89,7 @@
    })
    };
 
-window.onload = () => {
+/*window.onload = () => {
 //流れ星陣営
 
 setInterval(() => {
@@ -82,3 +161,4 @@ for (let i = 0; i < 800; i++) {
 
 
 }
+*/

@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
+<head>
     <meta charset="UTF-8">
-    <title>Work1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work — My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Modern+Antiqua&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <script src="script.js"></script>
+</head>
+<body>
+<div class="bg-slideshow" id="bgSlideshow"></div>
+<div class="location-label" id="locationLabel"><span class="loc-name"></span><a class="loc-link" href="#" target="_blank">→ Google Map</a></div>
 
-        <nav class="navbar">
-            <h2 class="logo">My Portfolio</h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="intex.html#works">Works</a></li>
-                <li><a href="intex.html#games">Games</a></li>
-                <li><a href="intex.html#about">About</a></li>
-            </ul>
-        </nav>
-        <section class="section1">
-            <h3 id="work2">title</h3>
-            <div class="">
-            <img class="" src="">
-            <img class="" src="">
-            </div>
-            <h4>開発の経緯</h4>
-            <p>comming soon</p>
 
-    <footer>
-        <b class="footer">Ⓒ 2026 Masaki Hirai All rights reserved</b>
-    </footer>
-    </body>
+
+<nav class="navbar">
+    <a href="index.html" style="text-decoration:none;"><h2 class="logo" data-ja="My Portfolio" data-en="My Portfolio">My Portfolio</h2></a>
+    <ul>
+        <div class="language"><li>
+            <button onclick="changeLang('ja')">日本語</button>
+            <button onclick="changeLang('en')">ENGLISH</button>
+        </li></div>
+        <li><a href="index.html" data-ja="ホーム" data-en="Home">Home</a></li>
+        <li><a href="index.html#about" data-ja="About" data-en="About">About</a></li>
+        <li><a href="index.html#games" data-ja="ゲーム🎮" data-en="Games🎮">Games🎮</a></li>
+        <li><a href="index.html#works" data-ja="記事📝" data-en="Works📝">Works📝</a></li>
+    </ul>
+</nav>
+<section class="section1">
+    <h3 data-ja="作品2：薔薇" data-en="Work 2: Rose">作品2：薔薇</h3>
+    <hr class="section-divider">
+    <img src="privatekadai.gif" alt="薔薇のドット絵アニメーション" style="max-width:100%; border-radius:12px; display:block; margin:0 auto 24px;">
+
+    <h4 data-ja="こだわったところ" data-en="What I focused on">こだわったところ</h4>
+    <p data-ja="花束の美しさに惚れました。いつかもらってみたいな～～"
+       data-en="I fell in love with the beauty of the bouquet.">
+       花束の美しさに惚れました。いつかもらってみたいな～～
+    </p>
+    
+</section>
+<footer>
+    <b class="footer">Ⓒ 2026 Masaki Hirai All rights reserved</b>
+</footer>
+<script src="script.js"></script>
+</body>
 </html>

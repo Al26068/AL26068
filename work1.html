@@ -1,44 +1,58 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
+<head>
     <meta charset="UTF-8">
-    <title>Work1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work1 — Election Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Modern+Antiqua&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <script src="script.js"></script>
+</head>
+<body>
+<div class="bg-slideshow" id="bgSlideshow"></div>
+<div class="location-label" id="locationLabel"><span class="loc-name"></span><a class="loc-link" href="#" target="_blank">→ Google Map</a></div>
 
-        <nav class="navbar">
-            <h2 class="logo" data-ja="My Portfolio" data-en="My Portfolio">My Portfolio</h2>
-            <ul>
+
+
+
+
+<nav class="navbar">
+    <a href="index.html" style="text-decoration:none;"><h2 class="logo" data-ja="My Portfolio" data-en="My Portfolio">My Portfolio</h2></a>
+    <ul>
         <div class="language">
             <li>
-        <button onclick="changeLang('ja')">JP</button>
-        <button onclick="changeLang('en')">EN</button>
-        </div></li>
-        <li><a href="#" data-ja="ホーム" data-en="Home">Home</a></li>
-        <li><a href="#about" data-ja="My" deta-en="About">About</a></li>
-        <li><a href="#games" data-ja="ゲーム🎮" data-en="Games🎮">Gmaes</a></li>
-        <li><a href="#works" data-ja="記事📝" data-en="Works📝">Works</a></li>
-        
+                <button onclick="changeLang('ja')">日本語</button>
+                <button onclick="changeLang('en')">ENGLISH</button>
+            </li>
+        </div>
+        <li><a href="index.html" data-ja="ホーム" data-en="Home">Home</a></li>
+        <li><a href="index.html#about" data-ja="About" data-en="About">About</a></li>
+        <li><a href="index.html#games" data-ja="ゲーム🎮" data-en="Games🎮">Games🎮</a></li>
+        <li><a href="index.html#works" data-ja="記事📝" data-en="Works📝">Works📝</a></li>
     </ul>
-        </nav>
-        <section class="section1">
-            <h3 id="work1" data-ja="オンライン選挙フォーム" data-en="Online Erection Forms">オンライン選挙フォーム</h3>
-            <div class="result1">
-            <img class="result" src="work1-1.png">
-            <img class="result" src="work1-2.png">
-            </div>
-            <h4 data-ja="開発の経緯" data-en="Development History">開発の経緯</h4>
-            <p data-ja="高校の時に作成しました。高校でタブレット端末が導入が導入されたことに伴い、オンラインでできたら集計が<br>
-                より素早く出せるなと思い、実施しました。どの委員長でも使えるように属人性を排除するためgoogle1forms<br>
-                を用いました！実装を希望の方はProfile欄のメールにご連絡ください。" data-en="I made it when I was High Shoool student. I did it because our high shcool introtude private PC for our studies. I avoid to use sepcial App for eliminate dependency.If u interestd in this system, please give me email.">高校の時に作成しました。高校でタブレット端末が導入が導入されたことに伴い、オンラインでできたら集計が<br>
-                より素早く出せるなと思い、実施しました。どの委員長でも使えるように属人性を排除するためgoogle1forms<br>
-                を用いました！実装を希望の方はProfile欄のメールにご連絡ください。
-            </p>
+</nav>
 
-    <footer>
-        <b class="footer">Ⓒ 2026 Masaki Hirai All rights reserved</b>
-    </footer>
-    </body>
+<section class="section1">
+    <h3 id="work1" data-ja="オンライン選挙フォーム" data-en="Online Election Forms">オンライン選挙フォーム</h3>
+    <hr class="section-divider">
+    <div class="result1">
+        <img class="result" src="work1-1.png" alt="選挙フォームスクリーンショット1">
+        <img class="result" src="work1-2.png" alt="選挙フォームスクリーンショット2">
+    </div>
+    <h4 data-ja="開発の経緯" data-en="Development History">開発の経緯</h4>
+    <p data-ja="高校の時に作成しました。高校でタブレット端末が導入されたことに伴い、<br>オンラインでできたら集計がより素早く出せるなと思い実施しました。<br>どの委員長でも使えるよう属人性を排除するため Google Forms を用いました！<br>実装を希望の方は Profile 欄のメールにご連絡ください。"
+       data-en="I made it when I was a High School student. When our school introduced tablets,<br>I thought online voting could make counting faster.<br>I used Google Forms to avoid dependency on any specific person.<br>If you're interested, please contact me via the Profile section!">
+        高校の時に作成しました。高校でタブレット端末が導入されたことに伴い、<br>
+        オンラインでできたら集計がより素早く出せるなと思い実施しました。<br>
+        どの委員長でも使えるよう属人性を排除するため Google Forms を用いました！<br>
+        実装を希望の方は Profile 欄のメールにご連絡ください。
+    </p>
+</section>
+
+<footer>
+    <b class="footer" data-ja="Ⓒ 2026 Masaki Hirai All rights reserved" data-en="Ⓒ 2026 Masaki Hirai All rights reserved">Ⓒ 2026 Masaki Hirai All rights reserved</b>
+</footer>
+<script src="script.js"></script>
+</body>
 </html>

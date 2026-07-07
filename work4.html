@@ -1,30 +1,50 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
+<head>
     <meta charset="UTF-8">
-    <title>Work1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work — My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Modern+Antiqua&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <script src="script.js"></script>
+</head>
+<body>
+<div class="bg-slideshow" id="bgSlideshow"></div>
+<div class="location-label" id="locationLabel"><span class="loc-name"></span><a class="loc-link" href="#" target="_blank">→ Google Map</a></div>
 
-        <nav class="navbar">
-            <h2 class="logo" data-ja="My Portfolio" data-en="My Portfolio">My Portfolio</h2>
-            <ul>
-        <div class="language">
-            <li>
-        <button onclick="changeLang('ja')">JP</button>
-        <button onclick="changeLang('en')">EN</button>
-        </div></li>
-        <li><a href="#" data-ja="ホーム" data-en="Home">Home</a></li>
-        <li><a href="#about" data-ja="My" deta-en="About">About</a></li>
-        <li><a href="#games" data-ja="ゲーム🎮" data-en="Games🎮">Gmaes</a></li>
-        <li><a href="#works" data-ja="記事📝" data-en="Works📝">Works</a></li>
-        
+
+
+<nav class="navbar">
+    <a href="index.html" style="text-decoration:none;"><h2 class="logo" data-ja="My Portfolio" data-en="My Portfolio">My Portfolio</h2></a>
+    <ul>
+        <div class="language"><li>
+            <button onclick="changeLang('ja')">日本語</button>
+            <button onclick="changeLang('en')">ENGLISH</button>
+        </li></div>
+        <li><a href="index.html" data-ja="ホーム" data-en="Home">Home</a></li>
+        <li><a href="index.html#about" data-ja="About" data-en="About">About</a></li>
+        <li><a href="index.html#games" data-ja="ゲーム🎮" data-en="Games🎮">Games🎮</a></li>
+        <li><a href="index.html#works" data-ja="記事📝" data-en="Works📝">Works📝</a></li>
     </ul>
-        </nav>
-        <footer>
-        <b class="footer">Ⓒ 2026 Masaki Hirai All rights reserved</b>
-    </footer>
-    </body>
+</nav>
+<section class="section1">
+    <h3 data-jp="ホームページの解説" data-en="Explanation of This page"></h3>
+    <hr class="section-divider">
+    <p class="exp1" data-jp="タスクバー" data-en="task-bar">タスクバー</p>
+        <p class="exp" data-jp="この部分は実際のウェブサイトでもあるようなものを参考にして作りました。hrefの中にファイル名.拡張子#section名で位置に動きます。" 
+        data-en="I learned my hobber idea from real-websities.Basicly,It move the postion by included href-tag. The tag is written by file-name.extension#secton-name">
+        この部分は実際のウェブサイトでもあるようなものを参考にして作りました。hrefの中にファイル名.拡張子#section名で位置に動きます。</p>
+        <img src="code1.png" alt="タスクバーのコード">
+    <p class="exp1" data-ja="言語変更" data-en="language-change">言語変更</p>
+        <p exp="class" data-jp="言語変更方法はそれぞれのpタグやhタグすべてにdata-enもしくはdata-jaを付与しています。タスクバーのボタンで変更できるようにjavascriptを使用しています。" data-en="At first,I set data-jp or data-en to all of h or p tags. After that, use JavaScript to select both from button which on task-bar
+    .">言語変更方法はそれぞれのpタグやhタグすべてにdata-enもしくはdata-jaを付与しています。タスクバーのボタンで変更できるようにjavascriptを使用しています。</p>
+        <img src="code2.png" alt="言語変更">
+
+</section>
+<footer>
+    <b class="footer">Ⓒ 2026 Masaki Hirai All rights reserved</b>
+</footer>
+<script src="script.js"></script>
+</body>
 </html>
