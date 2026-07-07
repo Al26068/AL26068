@@ -446,3 +446,69 @@ footer {
 .work4-img:hover {
     opacity: 1;
 }
+
+/* ─── RESPONSIVE (タブレット・スマホ対応) ─── */
+@media (max-width: 768px) {
+
+    /* ナビ */
+    .navbar {
+        padding: 10px 16px;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .navbar ul {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .logo { font-size: 1.1rem; }
+    .navbar a { font-size: 1rem; }
+
+    /* ヒーロー */
+    .hero-main { font-size: 44px; }
+    .hero-sub  { font-size: 24px; }
+
+    /* セクション */
+    .section { padding: 40px 0 10px; }
+    .section1 { padding: 80px 12px 30px; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1.3rem; }
+    p  { font-size: 1rem; }
+
+    /* プロフィール */
+    .profile-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+    .profile-left, .profile-right {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.9;
+    }
+
+    /* ゲーム */
+    .games { gap: 16px; }
+    .game a { width: 90px; height: 90px; }
+
+    /* カード */
+    .cards { gap: 14px; }
+    .card  { width: 160px; padding: 16px 14px; }
+    .card h2 { font-size: 1.1rem; }
+    .card p  { font-size: 0.9rem; }
+
+    /* work4 */
+    .exp  { padding: 0 16px; font-size: 1rem; }
+    .exp1 { font-size: 1.2rem; }
+    .work4-img { width: 95%; }
+
+    /* 動画・画像 */
+    video { width: 95% !important; }
+    .result { width: 95%; }
+    .result1 { gap: 12px; }
+
+    /* ロケーションラベル */
+    .location-label { bottom: 12px; right: 12px; }
+    .loc-name { font-size: 0.85rem; }
+    .loc-link { font-size: 0.8rem; }
+}
