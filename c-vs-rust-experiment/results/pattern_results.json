@@ -1,0 +1,1532 @@
+{
+ "P01": {
+  "name": "宣言していない変数を使う",
+  "note": "",
+  "gcc_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P01/before.c:4:5: error: ‘x’ undeclared (first use in this function)"
+  ],
+  "gccwall_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P01/before.c:4:5: error: ‘x’ undeclared (first use in this function)"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0425]: cannot find value `x` in this scope"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0425]: cannot find value `x` in this scope"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P02": {
+  "name": "文法の書き間違い（; 忘れなど）",
+  "note": "",
+  "gcc_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P02/before.c:5:14: error: expected ‘;’ before ‘printf’"
+  ],
+  "gccwall_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P02/before.c:5:14: error: expected ‘;’ before ‘printf’"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error: expected `;`, found `println`"
+  ],
+  "google_before": [
+   "エラー",
+   "error: expected `;`, found `println`"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P04": {
+  "name": "同じ変数を2回宣言する",
+  "note": "Rust は同じ名前の再宣言（シャドーイング）を許す",
+  "gcc_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P04/before.c:5:9: error: redefinition of ‘i’"
+  ],
+  "gccwall_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P04/before.c:5:9: error: redefinition of ‘i’"
+  ],
+  "rustc_before": [
+   "警告のみ",
+   "warning: unused variable: `i`"
+  ],
+  "google_before": [
+   "エラー",
+   "error: unused variable: `i`"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false,
+  "run": "正しく動く"
+ },
+ "P05": {
+  "name": "条件の中で == を = にして代入できない式になる",
+  "note": "",
+  "gcc_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P05/before.c:7:21: error: lvalue required as left operand of assignment"
+  ],
+  "gccwall_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P05/before.c:7:21: error: lvalue required as left operand of assignment"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P06a": {
+  "name": "int の配列を文字列で初期化する",
+  "note": "",
+  "gcc_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P06a/before.c:4:16: error: cannot initialize array of ‘int’ from a string literal with type array of ‘char’"
+  ],
+  "gccwall_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P06a/before.c:4:16: error: cannot initialize array of ‘int’ from a string literal with type array of ‘char’"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P06b": {
+  "name": "double に % を使う",
+  "note": "",
+  "gcc_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P06b/before.c:6:12: error: invalid operands to binary % (have ‘double’ and ‘int’)"
+  ],
+  "gccwall_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P06b/before.c:6:12: error: invalid operands to binary % (have ‘double’ and ‘int’)"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0277]: cannot calculate the remainder of `f64` divided by `{integer}`"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0277]: cannot calculate the remainder of `f64` divided by `{integer}`"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P06c": {
+  "name": "配列そのものに代入する",
+  "note": "",
+  "gcc_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P06c/before.c:5:7: error: assignment to expression with array type"
+  ],
+  "gccwall_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P06c/before.c:5:7: error: assignment to expression with array type"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P06d": {
+  "name": "関数に渡す引数が多すぎる",
+  "note": "",
+  "gcc_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P06d/before.c:8:20: error: too many arguments to function ‘twice’"
+  ],
+  "gccwall_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P06d/before.c:8:20: error: too many arguments to function ‘twice’"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0061]: this function takes 1 argument but 2 arguments were supplied"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0061]: this function takes 1 argument but 2 arguments were supplied"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P06e": {
+  "name": "関数と同じ名前の変数を作って関数が呼べなくなる",
+  "note": "",
+  "gcc_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P06e/before.c:14:15: error: called object ‘average’ is not a function or function pointer"
+  ],
+  "gccwall_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P06e/before.c:14:15: error: called object ‘average’ is not a function or function pointer"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0618]: expected function, found `f64`"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0618]: expected function, found `f64`"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P06f": {
+  "name": "値を返さない関数の結果を表示しようとする",
+  "note": "",
+  "gcc_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P06f/before.c:19:29: error: invalid use of void expression"
+  ],
+  "gccwall_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P06f/before.c:19:29: error: invalid use of void expression"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0277]: `()` doesn't implement `std::fmt::Display`"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0277]: `()` doesn't implement `std::fmt::Display`"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P06g": {
+  "name": "配列の要素への代入を宣言の形で書く",
+  "note": "",
+  "gcc_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P06g/before.c:5:9: error: conflicting types for ‘p’; have ‘int[0][0]’"
+  ],
+  "gccwall_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P06g/before.c:5:9: error: conflicting types for ‘p’; have ‘int[0][0]’"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error: expected a pattern, found an expression"
+  ],
+  "google_before": [
+   "エラー",
+   "error: expected a pattern, found an expression"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P07": {
+  "name": "古いCの規則（for の中で変数宣言）",
+  "note": "学校の古いgccに合わせて -std=gnu89 で測る。Rust にはこの規則がない",
+  "gcc_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P07/before.c:4:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode"
+  ],
+  "gccwall_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P07/before.c:4:5: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode"
+  ],
+  "rustc_before": [
+   "何も出ない",
+   ""
+  ],
+  "google_before": [
+   "何も出ない",
+   ""
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": true,
+  "run": "正しく動く"
+ },
+ "P10": {
+  "name": "scanf の & 忘れ",
+  "note": "",
+  "gcc_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P10/before.c:5:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]"
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P10/before.c:5:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P11": {
+  "name": "scanf の書式と変数の型が違う",
+  "note": "",
+  "gcc_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P11/before.c:5:14: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘int *’ [-Wformat=]"
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P11/before.c:5:14: warning: format ‘%lf’ expects argument of type ‘double *’, but argument 2 has type ‘int *’ [-Wformat=]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P12": {
+  "name": "printf の書式と値の型が違う",
+  "note": "Rust の {} は型を書かないので、このミスは書けない",
+  "gcc_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P12/before.c:5:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]"
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P12/before.c:5:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]"
+  ],
+  "rustc_before": [
+   "何も出ない",
+   ""
+  ],
+  "google_before": [
+   "何も出ない",
+   ""
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": true,
+  "run": "正しく動く"
+ },
+ "P13": {
+  "name": "関数を () なしで表示しようとする",
+  "note": "",
+  "gcc_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P13/before.c:9:16: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘double (*)(double)’ [-Wformat=]"
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P13/before.c:9:16: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘double (*)(double)’ [-Wformat=]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0277]: `fn(f64) -> f64 {circ}` doesn't implement `std::fmt::Display`"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0277]: `fn(f64) -> f64 {circ}` doesn't implement `std::fmt::Display`"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P14": {
+  "name": "printf の値の書き忘れ",
+  "note": "",
+  "gcc_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P14/before.c:5:14: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]"
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P14/before.c:5:14: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error: 1 positional argument in format string, but no arguments were given"
+  ],
+  "google_before": [
+   "エラー",
+   "error: 1 positional argument in format string, but no arguments were given"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P15": {
+  "name": "printf の書式の書き忘れ（値が余る）",
+  "note": "",
+  "gcc_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P15/before.c:5:12: warning: too many arguments for format [-Wformat-extra-args]"
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P15/before.c:5:12: warning: too many arguments for format [-Wformat-extra-args]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error: argument never used"
+  ],
+  "google_before": [
+   "エラー",
+   "error: argument never used"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P16": {
+  "name": "scanf の入れ先の書き忘れ",
+  "note": "",
+  "gcc_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P16/before.c:5:13: warning: format ‘%d’ expects a matching ‘int *’ argument [-Wformat=]"
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P16/before.c:5:13: warning: format ‘%d’ expects a matching ‘int *’ argument [-Wformat=]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0061]: this function takes 1 argument but 0 arguments were supplied"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0061]: this function takes 1 argument but 0 arguments were supplied"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P17": {
+  "name": "if の == を = にする",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P17/before.c:6:9: warning: suggest parentheses around assignment used as truth value [-Wparentheses]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P18": {
+  "name": "関数名の打ち間違い（prinft など）",
+  "note": "",
+  "gcc_before": [
+   "エラー",
+   "before.c:(.text+0x18): undefined reference to `prinft'"
+  ],
+  "gccwall_before": [
+   "エラー",
+   "before.c:(.text+0x18): undefined reference to `prinft'"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error: cannot find macro `prinltn` in this scope"
+  ],
+  "google_before": [
+   "エラー",
+   "error: cannot find macro `prinltn` in this scope"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P19": {
+  "name": "#include <math.h> 忘れ（pow, abs）",
+  "note": "Rust の powf / abs は数値に付いた機能なので読み込み自体がいらない",
+  "gcc_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P19/before.c:5:20: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]"
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P19/before.c:5:20: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]"
+  ],
+  "rustc_before": [
+   "何も出ない",
+   ""
+  ],
+  "google_before": [
+   "何も出ない",
+   ""
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": true,
+  "run": "正しく動く"
+ },
+ "P20": {
+  "name": "#include <stdlib.h> 忘れ（rand, RAND_MAX）",
+  "note": "",
+  "gcc_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P20/before.c:7:26: error: ‘RAND_MAX’ undeclared (first use in this function)"
+  ],
+  "gccwall_before": [
+   "エラー",
+   "/home/claude/work/repo/scripts/../build/P20/before.c:7:26: error: ‘RAND_MAX’ undeclared (first use in this function)"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0425]: cannot find function `rand` in this scope"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0425]: cannot find function `rand` in this scope"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P21": {
+  "name": "配列を渡すところに要素（数）を渡す",
+  "note": "",
+  "gcc_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P21/before.c:9:27: warning: passing argument 1 of ‘first’ makes pointer from integer without a cast [-Wint-conversion]"
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P21/before.c:9:27: warning: passing argument 1 of ‘first’ makes pointer from integer without a cast [-Wint-conversion]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P22": {
+  "name": "int に入りきらない計算",
+  "note": "",
+  "gcc_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P22/before.c:4:39: warning: integer overflow in expression of type ‘int’ results in ‘-2147483648’ [-Woverflow]"
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P22/before.c:4:39: warning: integer overflow in expression of type ‘int’ results in ‘-2147483648’ [-Woverflow]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error: this arithmetic operation will overflow"
+  ],
+  "google_before": [
+   "エラー",
+   "error: this arithmetic operation will overflow"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P23": {
+  "name": "2文字を '' で囲む",
+  "note": "",
+  "gcc_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P23/before.c:5:17: warning: multi-character character constant [-Wmultichar]"
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P23/before.c:5:17: warning: multi-character character constant [-Wmultichar]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error: character literal may only contain one codepoint"
+  ],
+  "google_before": [
+   "エラー",
+   "error: character literal may only contain one codepoint"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P24": {
+  "name": "if の後ろに ; を付けて空の if になる",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P24/before.c:6:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error: expected `{`, found `;`"
+  ],
+  "google_before": [
+   "エラー",
+   "error: expected `{`, found `;`"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P25": {
+  "name": "{ } なしの if で2行目が if の外に出る",
+  "note": "Rust は if に { } が必須なので、このミスは書けない",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P25/before.c:6:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]"
+  ],
+  "rustc_before": [
+   "何も出ない",
+   ""
+  ],
+  "google_before": [
+   "何も出ない",
+   ""
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": true,
+  "run": "正しく動く"
+ },
+ "P26": {
+  "name": "for の初期化を n-1 と書く（代入になっていない）",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P26/before.c:5:12: warning: statement with no effect [-Wunused-value]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0381]: used binding `n` isn't initialized"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0381]: used binding `n` isn't initialized"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P27": {
+  "name": "まとめて0にするつもりで , を使う（a,b,c=0;）",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P27/before.c:5:6: warning: left-hand operand of comma expression has no effect [-Wunused-value]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0381]: used binding `a` isn't initialized"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0381]: used binding `a` isn't initialized"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P28": {
+  "name": "for の条件に , を書く（n,10）",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P28/before.c:5:18: warning: left-hand operand of comma expression has no effect [-Wunused-value]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P29": {
+  "name": "+ を ; と打って足し算が消える（sum = sum ; a[i];）",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P29/before.c:7:22: warning: statement with no effect [-Wunused-value]"
+  ],
+  "rustc_before": [
+   "警告のみ",
+   "warning: useless assignment of variable of type `i32` to itself"
+  ],
+  "google_before": [
+   "エラー",
+   "error: useless assignment of variable of type `i32` to itself"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false,
+  "run": "結果が違う（0 ≠ 正しくは 6）"
+ },
+ "P30": {
+  "name": "for の ; を , にして条件が i++ になる",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P30/before.c:5:15: warning: right-hand operand of comma expression has no effect [-Wunused-value]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0308]: mismatched types"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P40a": {
+  "name": "ループの範囲が1つずれる（i<n と i<=n など）",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_before": [
+   "何も出ない",
+   ""
+  ],
+  "google_before": [
+   "何も出ない",
+   ""
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false,
+  "run": "結果が違う（10 ≠ 正しくは 15）"
+ },
+ "P40b": {
+  "name": "変数・添字の取り違え",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_before": [
+   "何も出ない",
+   ""
+  ],
+  "google_before": [
+   "何も出ない",
+   ""
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false,
+  "run": "結果が違う（3 2 ≠ 正しくは 3 -1）"
+ },
+ "P40c": {
+  "name": "計算式・初期値のミス（10*e を 10+e など）",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_before": [
+   "何も出ない",
+   ""
+  ],
+  "google_before": [
+   "何も出ない",
+   ""
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false,
+  "run": "結果が違う（1012 ≠ 正しくは 1020）"
+ },
+ "P41": {
+  "name": "初期化していない変数を条件に使う（x%i）",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "警告のみ",
+   "/home/claude/work/repo/scripts/../build/P41/before.c:5:11: warning: ‘x’ is used uninitialized [-Wuninitialized]"
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0381]: used binding `x` isn't initialized"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0381]: used binding `x` isn't initialized"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P42": {
+  "name": "整数どうしの割り算で小数が消える（1/2 が 0）",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0277]: cannot add-assign `{integer}` to `{float}`"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0277]: cannot add-assign `{integer}` to `{float}`"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P43": {
+  "name": "合計用の変数の初期化忘れ",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_before": [
+   "エラー",
+   "error[E0381]: used binding `sum` is possibly-uninitialized"
+  ],
+  "google_before": [
+   "エラー",
+   "error[E0381]: used binding `sum` is possibly-uninitialized"
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false
+ },
+ "P44": {
+  "name": "配列が小さくて範囲外に書き込む",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_before": [
+   "何も出ない",
+   ""
+  ],
+  "google_before": [
+   "何も出ない",
+   ""
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false,
+  "run": "実行時に停止（panic）: note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.",
+  "panic": "thread 'main' (2694) panicked at /home/claude/work/repo/scripts/../build/P44/before.rs:8:9:"
+ },
+ "P45": {
+  "name": "0 で割る（i=0 から始めて p%i）",
+  "note": "",
+  "gcc_before": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_before": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_before": [
+   "何も出ない",
+   ""
+  ],
+  "google_before": [
+   "何も出ない",
+   ""
+  ],
+  "gcc_after": [
+   "何も出ない",
+   ""
+  ],
+  "gccwall_after": [
+   "何も出ない",
+   ""
+  ],
+  "rustc_after": [
+   "何も出ない",
+   ""
+  ],
+  "google_after": [
+   "何も出ない",
+   ""
+  ],
+  "same_code": false,
+  "run": "実行時に停止（panic）: note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.",
+  "panic": "thread 'main' (2770) panicked at /home/claude/work/repo/scripts/../build/P45/before.rs:9:12:"
+ }
+}

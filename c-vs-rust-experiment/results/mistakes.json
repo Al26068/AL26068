@@ -1,0 +1,3666 @@
+[
+{
+"rows": [
+0
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+1,
+2
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+3,
+4
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+5
+],
+"code": "W10",
+"pid": "P26",
+"pname": "for の初期化を n-1 と書く（代入になっていない）",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `n` isn't initialized"
+},
+{
+"rows": [
+6
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+7,
+8
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+9,
+10
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+11,
+12
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+13
+],
+"code": "E3",
+"pid": "P04",
+"pname": "同じ変数を2回宣言する",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "警告のみ",
+"google": "エラー",
+"rclass": "Google設定でエラー",
+"rmsg": "warning: unused variable: `i`"
+},
+{
+"rows": [
+14
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+15
+],
+"code": "E3",
+"pid": "P04",
+"pname": "同じ変数を2回宣言する",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "警告のみ",
+"google": "エラー",
+"rclass": "Google設定でエラー",
+"rmsg": "warning: unused variable: `i`"
+},
+{
+"rows": [
+16
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+17,
+18
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+19
+],
+"code": "E3",
+"pid": "P04",
+"pname": "同じ変数を2回宣言する",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "警告のみ",
+"google": "エラー",
+"rclass": "Google設定でエラー",
+"rmsg": "warning: unused variable: `i`"
+},
+{
+"rows": [
+20
+],
+"code": "W5",
+"pid": "P18",
+"pname": "関数名の打ち間違い（prinft など）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinltn` in this scope"
+},
+{
+"rows": [
+21
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+22
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+23
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+24
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+25
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+26
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+27,
+28,
+29,
+30,
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40
+],
+"code": "W10",
+"pid": "P27",
+"pname": "まとめて0にするつもりで , を使う（a,b,c=0;）",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `a` isn't initialized"
+},
+{
+"rows": [
+41
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+42
+],
+"code": "W2",
+"pid": "P12",
+"pname": "printf の書式と値の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+43
+],
+"code": "W2",
+"pid": "P12",
+"pname": "printf の書式と値の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+44
+],
+"code": "W2",
+"pid": "P12",
+"pname": "printf の書式と値の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+45,
+46
+],
+"code": "W2",
+"pid": "P12",
+"pname": "printf の書式と値の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+47
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+48
+],
+"code": "E4",
+"pid": "P05",
+"pname": "条件の中で == を = にして代入できない式になる",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+49
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+50,
+51
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+52,
+53
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+54
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+55
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+56
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+57
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+58
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+59
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+60
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+61,
+62,
+63,
+64,
+65,
+66
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+67
+],
+"code": "E4",
+"pid": "P06a",
+"pname": "int の配列を文字列で初期化する",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+68
+],
+"code": "E3",
+"pid": "P04",
+"pname": "同じ変数を2回宣言する",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "警告のみ",
+"google": "エラー",
+"rclass": "Google設定でエラー",
+"rmsg": "warning: unused variable: `i`"
+},
+{
+"rows": [
+69
+],
+"code": "W5",
+"pid": "P18",
+"pname": "関数名の打ち間違い（prinft など）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinltn` in this scope"
+},
+{
+"rows": [
+70
+],
+"code": "W4",
+"pid": "P17",
+"pname": "if の == を = にする",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+71
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+72
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+73
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+74
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+75
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+76
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+77
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+78
+],
+"code": "W2",
+"pid": "P12",
+"pname": "printf の書式と値の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+79
+],
+"code": "E3",
+"pid": "P04",
+"pname": "同じ変数を2回宣言する",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "警告のみ",
+"google": "エラー",
+"rclass": "Google設定でエラー",
+"rmsg": "warning: unused variable: `i`"
+},
+{
+"rows": [
+80
+],
+"code": "W1",
+"pid": "P11",
+"pname": "scanf の書式と変数の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+81,
+82
+],
+"code": "W5",
+"pid": "P19",
+"pname": "#include <math.h> 忘れ（pow, abs）",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+83
+],
+"code": "W1",
+"pid": "P11",
+"pname": "scanf の書式と変数の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+84
+],
+"code": "W2",
+"pid": "P12",
+"pname": "printf の書式と値の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+85
+],
+"code": "E4",
+"pid": "P06b",
+"pname": "double に % を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0277]: cannot calculate the remainder of `f64` divided by `{integer}`"
+},
+{
+"rows": [
+86,
+87
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+88,
+89
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+90
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+91
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+92
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+93
+],
+"code": "W9",
+"pid": "P24",
+"pname": "if の後ろに ; を付けて空の if になる",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `{`, found `;`"
+},
+{
+"rows": [
+94
+],
+"code": "W5",
+"pid": "P18",
+"pname": "関数名の打ち間違い（prinft など）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinltn` in this scope"
+},
+{
+"rows": [
+95
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+96
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+97
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+98
+],
+"code": "E4",
+"pid": "P06c",
+"pname": "配列そのものに代入する",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+99,
+100
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+101
+],
+"code": "W5",
+"pid": "P18",
+"pname": "関数名の打ち間違い（prinft など）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinltn` in this scope"
+},
+{
+"rows": [
+102
+],
+"code": "W10",
+"pid": "P28",
+"pname": "for の条件に , を書く（n,10）",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+103
+],
+"code": "W1",
+"pid": "P11",
+"pname": "scanf の書式と変数の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+104
+],
+"code": "W2",
+"pid": "P12",
+"pname": "printf の書式と値の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+105
+],
+"code": "W1",
+"pid": "P11",
+"pname": "scanf の書式と変数の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+106,
+107
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+108
+],
+"code": "W5",
+"pid": "P18",
+"pname": "関数名の打ち間違い（prinft など）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinltn` in this scope"
+},
+{
+"rows": [
+109
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+110
+],
+"code": "E4",
+"pid": "P06d",
+"pname": "関数に渡す引数が多すぎる",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0061]: this function takes 1 argument but 2 arguments were supplied"
+},
+{
+"rows": [
+111
+],
+"code": "W5",
+"pid": "P19",
+"pname": "#include <math.h> 忘れ（pow, abs）",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+112
+],
+"code": "W1",
+"pid": "P11",
+"pname": "scanf の書式と変数の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+113
+],
+"code": "E3",
+"pid": "P04",
+"pname": "同じ変数を2回宣言する",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "警告のみ",
+"google": "エラー",
+"rclass": "Google設定でエラー",
+"rmsg": "warning: unused variable: `i`"
+},
+{
+"rows": [
+114
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+115
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+116
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+117,
+118
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+119,
+120
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+121,
+122
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+123
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+124
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+125
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+126
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+127,
+128
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+129
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+130
+],
+"code": "W7",
+"pid": "P22",
+"pname": "int に入りきらない計算",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: this arithmetic operation will overflow"
+},
+{
+"rows": [
+131
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+132
+],
+"code": "W5",
+"pid": "P18",
+"pname": "関数名の打ち間違い（prinft など）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinltn` in this scope"
+},
+{
+"rows": [
+133,
+134,
+135
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+136
+],
+"code": "W5",
+"pid": "P18",
+"pname": "関数名の打ち間違い（prinft など）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinltn` in this scope"
+},
+{
+"rows": [
+137
+],
+"code": "W4",
+"pid": "P17",
+"pname": "if の == を = にする",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+138
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+139
+],
+"code": "W10",
+"pid": "P29",
+"pname": "+ を ; と打って足し算が消える（sum = sum ; a[i];）",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "警告のみ",
+"google": "エラー",
+"rclass": "Google設定でエラー",
+"rmsg": "warning: useless assignment of variable of type `i32` to itself"
+},
+{
+"rows": [
+140
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+141
+],
+"code": "W5",
+"pid": "P18",
+"pname": "関数名の打ち間違い（prinft など）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinltn` in this scope"
+},
+{
+"rows": [
+142,
+143
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+144
+],
+"code": "W1",
+"pid": "P11",
+"pname": "scanf の書式と変数の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+145
+],
+"code": "W2",
+"pid": "P12",
+"pname": "printf の書式と値の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+146
+],
+"code": "W2",
+"pid": "P12",
+"pname": "printf の書式と値の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+147
+],
+"code": "W2",
+"pid": "P12",
+"pname": "printf の書式と値の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+148
+],
+"code": "W5",
+"pid": "P18",
+"pname": "関数名の打ち間違い（prinft など）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinltn` in this scope"
+},
+{
+"rows": [
+149
+],
+"code": "W5",
+"pid": "P18",
+"pname": "関数名の打ち間違い（prinft など）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinltn` in this scope"
+},
+{
+"rows": [
+150
+],
+"code": "W3",
+"pid": "P16",
+"pname": "scanf の入れ先の書き忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0061]: this function takes 1 argument but 0 arguments were supplied"
+},
+{
+"rows": [
+151
+],
+"code": "W9",
+"pid": "P25",
+"pname": "{ } なしの if で2行目が if の外に出る",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+152
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+153
+],
+"code": "W3",
+"pid": "P14",
+"pname": "printf の値の書き忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given"
+},
+{
+"rows": [
+154
+],
+"code": "W3",
+"pid": "P14",
+"pname": "printf の値の書き忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given"
+},
+{
+"rows": [
+155
+],
+"code": "W3",
+"pid": "P14",
+"pname": "printf の値の書き忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given"
+},
+{
+"rows": [
+156
+],
+"code": "W3",
+"pid": "P14",
+"pname": "printf の値の書き忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given"
+},
+{
+"rows": [
+157
+],
+"code": "W3",
+"pid": "P14",
+"pname": "printf の値の書き忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given"
+},
+{
+"rows": [
+158
+],
+"code": "W4",
+"pid": "P17",
+"pname": "if の == を = にする",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+159
+],
+"code": "W4",
+"pid": "P17",
+"pname": "if の == を = にする",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+160
+],
+"code": "W4",
+"pid": "P17",
+"pname": "if の == を = にする",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+161
+],
+"code": "W4",
+"pid": "P17",
+"pname": "if の == を = にする",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+162
+],
+"code": "W4",
+"pid": "P17",
+"pname": "if の == を = にする",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+163
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+164
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+165
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+166,
+167
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+168,
+169
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+170
+],
+"code": "W2",
+"pid": "P12",
+"pname": "printf の書式と値の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+171
+],
+"code": "W2",
+"pid": "P12",
+"pname": "printf の書式と値の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+172
+],
+"code": "W3",
+"pid": "P14",
+"pname": "printf の値の書き忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given"
+},
+{
+"rows": [
+173
+],
+"code": "W3",
+"pid": "P14",
+"pname": "printf の値の書き忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given"
+},
+{
+"rows": [
+174
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+175
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+176
+],
+"code": "W5",
+"pid": "P18",
+"pname": "関数名の打ち間違い（prinft など）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinltn` in this scope"
+},
+{
+"rows": [
+177
+],
+"code": "W2",
+"pid": "P12",
+"pname": "printf の書式と値の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+178
+],
+"code": "W5",
+"pid": "P18",
+"pname": "関数名の打ち間違い（prinft など）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinltn` in this scope"
+},
+{
+"rows": [
+179
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+180,
+181
+],
+"code": "W8",
+"pid": "P23",
+"pname": "2文字を '' で囲む",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: character literal may only contain one codepoint"
+},
+{
+"rows": [
+182
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+183
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+184
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+185
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+186
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+187
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+188
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+189
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+190
+],
+"code": "W3",
+"pid": "P15",
+"pname": "printf の書式の書き忘れ（値が余る）",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: argument never used"
+},
+{
+"rows": [
+191
+],
+"code": "W3",
+"pid": "P15",
+"pname": "printf の書式の書き忘れ（値が余る）",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: argument never used"
+},
+{
+"rows": [
+192
+],
+"code": "W3",
+"pid": "P15",
+"pname": "printf の書式の書き忘れ（値が余る）",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: argument never used"
+},
+{
+"rows": [
+193
+],
+"code": "W3",
+"pid": "P15",
+"pname": "printf の書式の書き忘れ（値が余る）",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: argument never used"
+},
+{
+"rows": [
+194,
+195
+],
+"code": "E3",
+"pid": "P06g",
+"pname": "配列の要素への代入を宣言の形で書く",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected a pattern, found an expression"
+},
+{
+"rows": [
+196,
+197
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+198
+],
+"code": "W1",
+"pid": "P11",
+"pname": "scanf の書式と変数の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+199
+],
+"code": "W2",
+"pid": "P13",
+"pname": "関数を () なしで表示しようとする",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0277]: `fn(f64) -> f64 {circ}` doesn't implement `std::fmt::Display`"
+},
+{
+"rows": [
+200
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+201
+],
+"code": "W1",
+"pid": "P10",
+"pname": "scanf の & 忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+202,
+203
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+204
+],
+"code": "W6",
+"pid": "P21",
+"pname": "配列を渡すところに要素（数）を渡す",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+205
+],
+"code": "W4",
+"pid": "P17",
+"pname": "if の == を = にする",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+206
+],
+"code": "W4",
+"pid": "P17",
+"pname": "if の == を = にする",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+207
+],
+"code": "W5",
+"pid": "P18",
+"pname": "関数名の打ち間違い（prinft など）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinltn` in this scope"
+},
+{
+"rows": [
+208
+],
+"code": "E4",
+"pid": "P05",
+"pname": "条件の中で == を = にして代入できない式になる",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+209
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+210
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+211
+],
+"code": "E3",
+"pid": "P04",
+"pname": "同じ変数を2回宣言する",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "警告のみ",
+"google": "エラー",
+"rclass": "Google設定でエラー",
+"rmsg": "warning: unused variable: `i`"
+},
+{
+"rows": [
+212,
+213
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+214
+],
+"code": "W6",
+"pid": "P21",
+"pname": "配列を渡すところに要素（数）を渡す",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+215
+],
+"code": "E4",
+"pid": "P06e",
+"pname": "関数と同じ名前の変数を作って関数が呼べなくなる",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0618]: expected function, found `f64`"
+},
+{
+"rows": [
+216
+],
+"code": "W6",
+"pid": "P21",
+"pname": "配列を渡すところに要素（数）を渡す",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+217
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+218,
+219
+],
+"code": "W6",
+"pid": "P21",
+"pname": "配列を渡すところに要素（数）を渡す",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+220
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+221,
+222
+],
+"code": "W10",
+"pid": "P30",
+"pname": "for の ; を , にして条件が i++ になる",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+223,
+224
+],
+"code": "W6",
+"pid": "P21",
+"pname": "配列を渡すところに要素（数）を渡す",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+225,
+226
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+227
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+228
+],
+"code": "W3",
+"pid": "P15",
+"pname": "printf の書式の書き忘れ（値が余る）",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: argument never used"
+},
+{
+"rows": [
+229
+],
+"code": "E4",
+"pid": "P06f",
+"pname": "値を返さない関数の結果を表示しようとする",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0277]: `()` doesn't implement `std::fmt::Display`"
+},
+{
+"rows": [
+230
+],
+"code": "W3",
+"pid": "P16",
+"pname": "scanf の入れ先の書き忘れ",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0061]: this function takes 1 argument but 0 arguments were supplied"
+},
+{
+"rows": [
+231
+],
+"code": "W6",
+"pid": "P21",
+"pname": "配列を渡すところに要素（数）を渡す",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+232,
+233
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+234,
+235
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+236
+],
+"code": "E1",
+"pid": "P01",
+"pname": "宣言していない変数を使う",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `x` in this scope"
+},
+{
+"rows": [
+237
+],
+"code": "W2",
+"pid": "P12",
+"pname": "printf の書式と値の型が違う",
+"gcc": "警告のみ",
+"wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+238
+],
+"code": "E2",
+"pid": "P02",
+"pname": "文法の書き間違い（; 忘れなど）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `println`"
+},
+{
+"rows": [
+239
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+240
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+241
+],
+"code": "L2",
+"pid": "P40b",
+"pname": "変数・添字の取り違え",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（3 2 ≠ 正しくは 3 -1）"
+},
+{
+"rows": [
+242
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+243
+],
+"code": "L2",
+"pid": "P40b",
+"pname": "変数・添字の取り違え",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（3 2 ≠ 正しくは 3 -1）"
+},
+{
+"rows": [
+244
+],
+"code": "L2",
+"pid": "P40b",
+"pname": "変数・添字の取り違え",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（3 2 ≠ 正しくは 3 -1）"
+},
+{
+"rows": [
+245
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+246
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+247
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+248
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+249
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+250
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+251
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+252
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+253
+],
+"code": "L4",
+"pid": "P42",
+"pname": "整数どうしの割り算で小数が消える（1/2 が 0）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0277]: cannot add-assign `{integer}` to `{float}`"
+},
+{
+"rows": [
+254
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+255
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+256
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+257
+],
+"code": "L2",
+"pid": "P40b",
+"pname": "変数・添字の取り違え",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（3 2 ≠ 正しくは 3 -1）"
+},
+{
+"rows": [
+258
+],
+"code": "L4",
+"pid": "P42",
+"pname": "整数どうしの割り算で小数が消える（1/2 が 0）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0277]: cannot add-assign `{integer}` to `{float}`"
+},
+{
+"rows": [
+259
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+260
+],
+"code": "L2",
+"pid": "P40b",
+"pname": "変数・添字の取り違え",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（3 2 ≠ 正しくは 3 -1）"
+},
+{
+"rows": [
+261
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+262
+],
+"code": "L5",
+"pid": "P43",
+"pname": "合計用の変数の初期化忘れ",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `sum` is possibly-uninitialized"
+},
+{
+"rows": [
+263
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+264
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+265
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+266
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+267
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+268
+],
+"code": "L5",
+"pid": "P43",
+"pname": "合計用の変数の初期化忘れ",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `sum` is possibly-uninitialized"
+},
+{
+"rows": [
+269
+],
+"code": "L2",
+"pid": "P40b",
+"pname": "変数・添字の取り違え",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（3 2 ≠ 正しくは 3 -1）"
+},
+{
+"rows": [
+270
+],
+"code": "L2",
+"pid": "P40b",
+"pname": "変数・添字の取り違え",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（3 2 ≠ 正しくは 3 -1）"
+},
+{
+"rows": [
+271
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+272
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+273
+],
+"code": "L6",
+"pid": "P44",
+"pname": "配列が小さくて範囲外に書き込む",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "実行時に停止",
+"rmsg": "実行時に停止（panic）: note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace."
+},
+{
+"rows": [
+274
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+275
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+276
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+277
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+278
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+279
+],
+"code": "L7",
+"pid": "P45",
+"pname": "0 で割る（i=0 から始めて p%i）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "実行時に停止",
+"rmsg": "実行時に停止（panic）: note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace."
+},
+{
+"rows": [
+280
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+281
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+282
+],
+"code": "L6",
+"pid": "P44",
+"pname": "配列が小さくて範囲外に書き込む",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "実行時に停止",
+"rmsg": "実行時に停止（panic）: note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace."
+},
+{
+"rows": [
+283
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+284
+],
+"code": "L2",
+"pid": "P40b",
+"pname": "変数・添字の取り違え",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（3 2 ≠ 正しくは 3 -1）"
+},
+{
+"rows": [
+285
+],
+"code": "L2",
+"pid": "P40b",
+"pname": "変数・添字の取り違え",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（3 2 ≠ 正しくは 3 -1）"
+},
+{
+"rows": [
+286
+],
+"code": "L6",
+"pid": "P44",
+"pname": "配列が小さくて範囲外に書き込む",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "実行時に停止",
+"rmsg": "実行時に停止（panic）: note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace."
+},
+{
+"rows": [
+287
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+288
+],
+"code": "L2",
+"pid": "P40b",
+"pname": "変数・添字の取り違え",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（3 2 ≠ 正しくは 3 -1）"
+},
+{
+"rows": [
+289
+],
+"code": "L2",
+"pid": "P40b",
+"pname": "変数・添字の取り違え",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（3 2 ≠ 正しくは 3 -1）"
+},
+{
+"rows": [
+290
+],
+"code": "L6",
+"pid": "P44",
+"pname": "配列が小さくて範囲外に書き込む",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "実行時に停止",
+"rmsg": "実行時に停止（panic）: note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace."
+},
+{
+"rows": [
+291
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+292
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+293
+],
+"code": "L2",
+"pid": "P41",
+"pname": "初期化していない変数を条件に使う（x%i）",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `x` isn't initialized"
+},
+{
+"rows": [
+294
+],
+"code": "L5",
+"pid": "P43",
+"pname": "合計用の変数の初期化忘れ",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `sum` is possibly-uninitialized"
+},
+{
+"rows": [
+295
+],
+"code": "L4",
+"pid": "P42",
+"pname": "整数どうしの割り算で小数が消える（1/2 が 0）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0277]: cannot add-assign `{integer}` to `{float}`"
+},
+{
+"rows": [
+296
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+297
+],
+"code": "L4",
+"pid": "P42",
+"pname": "整数どうしの割り算で小数が消える（1/2 が 0）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0277]: cannot add-assign `{integer}` to `{float}`"
+},
+{
+"rows": [
+298
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+299
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+300
+],
+"code": "L5",
+"pid": "P43",
+"pname": "合計用の変数の初期化忘れ",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `sum` is possibly-uninitialized"
+},
+{
+"rows": [
+301
+],
+"code": "W4",
+"pid": "P17",
+"pname": "if の == を = にする",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+302
+],
+"code": "W4",
+"pid": "P17",
+"pname": "if の == を = にする",
+"gcc": "何も出ない",
+"wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types"
+},
+{
+"rows": [
+303
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+304
+],
+"code": "L2",
+"pid": "P40b",
+"pname": "変数・添字の取り違え",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（3 2 ≠ 正しくは 3 -1）"
+},
+{
+"rows": [
+305
+],
+"code": "L3",
+"pid": "P40c",
+"pname": "計算式・初期値のミス（10*e を 10+e など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（1012 ≠ 正しくは 1020）"
+},
+{
+"rows": [
+306
+],
+"code": "L2",
+"pid": "P40b",
+"pname": "変数・添字の取り違え",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（3 2 ≠ 正しくは 3 -1）"
+},
+{
+"rows": [
+307
+],
+"code": "L1",
+"pid": "P40a",
+"pname": "ループの範囲が1つずれる（i<n と i<=n など）",
+"gcc": "何も出ない",
+"wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "結果が違う（10 ≠ 正しくは 15）"
+},
+{
+"rows": [
+308
+],
+"code": "E5",
+"pid": "P07",
+"pname": "古いCの規則（for の中で変数宣言）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+},
+{
+"rows": [
+309
+],
+"code": "E5",
+"pid": "P07",
+"pname": "古いCの規則（for の中で変数宣言）",
+"gcc": "エラー",
+"wall": "エラー",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "正しく動く"
+}
+]
