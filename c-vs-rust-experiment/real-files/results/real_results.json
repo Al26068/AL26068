@@ -1,0 +1,3988 @@
+[
+{
+"gid": 16,
+"nos": [
+33
+],
+"file": "pro1/ex2/Challenge2-A.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 17,
+"nos": [
+34
+],
+"file": "pro1/ex2/Challenge2-A.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 18,
+"nos": [
+35
+],
+"file": "pro1/ex2/Challenge2-A.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 19,
+"nos": [
+36
+],
+"file": "pro1/ex2/Challenge2-A.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 20,
+"nos": [
+37
+],
+"file": "pro1/ex2/Challenge2-A.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 21,
+"nos": [
+38
+],
+"file": "pro1/ex2/Challenge2-A.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 22,
+"nos": [
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50,
+51,
+52
+],
+"file": "pro1/ex2/Challenge2-A.c",
+"code": "W10",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `dest` isn't initialized",
+"why": ""
+},
+{
+"gid": 23,
+"nos": [
+53
+],
+"file": "pro1/ex2/Challenge2-B.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected identifier, found `;`",
+"why": ""
+},
+{
+"gid": 24,
+"nos": [
+54
+],
+"file": "pro1/ex2/Challenge2-B.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない"
+},
+{
+"gid": 25,
+"nos": [
+55
+],
+"file": "pro1/ex2/Challenge2-B.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない"
+},
+{
+"gid": 26,
+"nos": [
+56
+],
+"file": "pro1/ex2/Challenge2-B.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない"
+},
+{
+"gid": 27,
+"nos": [
+57,
+58
+],
+"file": "pro1/ex2/Challenge2-B.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない"
+},
+{
+"gid": 28,
+"nos": [
+59
+],
+"file": "pro1/ex2/Challenge2-B.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "同じ結果",
+"rclass": "Google設定でエラー",
+"rmsg": " unnecessary braces around assigned value",
+"why": ""
+},
+{
+"gid": 29,
+"nos": [
+60
+],
+"file": "pro1/ex2/Challenge2-C.c",
+"code": "E4",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 30,
+"nos": [
+61
+],
+"file": "pro1/ex2/Challenge2-C#.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `a` in this scope",
+"why": ""
+},
+{
+"gid": 31,
+"nos": [
+62,
+63
+],
+"file": "pro1/ex2/Challenge2-C#.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `d`",
+"why": ""
+},
+{
+"gid": 32,
+"nos": [
+64,
+65
+],
+"file": "pro1/ex2/Challenge2-C#.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: `mut` must be followed by a named binding",
+"why": ""
+},
+{
+"gid": 33,
+"nos": [
+66
+],
+"file": "pro1/ex2/ex2-1.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 34,
+"nos": [
+67
+],
+"file": "pro1/ex2/ex2-1.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 35,
+"nos": [
+68
+],
+"file": "pro1/ex2/ex2-3.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `read_into`",
+"why": ""
+},
+{
+"gid": 36,
+"nos": [
+69
+],
+"file": "pro1/ex3/Challenge3-B.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `i`",
+"why": ""
+},
+{
+"gid": 37,
+"nos": [
+70
+],
+"file": "pro1/ex3/Challenge3-B.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0435]: attempt to use a non-constant value in a constant",
+"why": ""
+},
+{
+"gid": 38,
+"nos": [
+71
+],
+"file": "pro1/ex3/Challenge3-B.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected pattern, found `;`",
+"why": ""
+},
+{
+"gid": 39,
+"nos": [
+72
+],
+"file": "pro1/ex3/Challenge3-B.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+{
+"gid": 40,
+"nos": [
+73,
+74,
+75,
+76,
+77,
+78
+],
+"file": "pro1/ex3/Challenge3-B.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected one of `;` or `=`, found `[`",
+"why": ""
+},
+{
+"gid": 41,
+"nos": [
+79
+],
+"file": "pro1/ex3/Challenge3-B.c",
+"code": "E4",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 42,
+"nos": [
+80
+],
+"file": "pro1/ex3/Challenge3-B.c",
+"code": "E3",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "同じ結果",
+"rclass": "Google設定でエラー",
+"rmsg": " unused variable: `_`",
+"why": ""
+},
+{
+"gid": 43,
+"nos": [
+81
+],
+"file": "pro1/ex3/Challenge3-B.c",
+"code": "W5",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinft` in this scope",
+"why": ""
+},
+{
+"gid": 44,
+"nos": [
+82
+],
+"file": "pro1/ex3/Challenge3-B.c",
+"code": "W4",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 45,
+"nos": [
+83
+],
+"file": "pro1/ex3/ex3-1.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 46,
+"nos": [
+84
+],
+"file": "pro1/ex3/ex3-4.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+{
+"gid": 47,
+"nos": [
+85
+],
+"file": "pro1/ex3/ex3-5.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `cwin` in this scope",
+"why": ""
+},
+{
+"gid": 48,
+"nos": [
+86
+],
+"file": "pro1/ex3/ex3-5.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: unexpected closing delimiter: `}`",
+"why": ""
+},
+{
+"gid": 49,
+"nos": [
+92
+],
+"file": "pro1/ex4/Challenge4-A2.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `i` in this scope",
+"why": ""
+},
+{
+"gid": 50,
+"nos": [
+93
+],
+"file": "pro1/ex4/Challenge4-A2.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+{
+"gid": 51,
+"nos": [
+94
+],
+"file": "pro1/ex4/ex4-3.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `i`",
+"why": ""
+},
+{
+"gid": 52,
+"nos": [
+95
+],
+"file": "pro1/ex4/ex4-3.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない"
+},
+{
+"gid": 53,
+"nos": [
+96
+],
+"file": "pro1/ex4/ex4-3.c",
+"code": "E3",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "同じ結果",
+"rclass": "Google設定でエラー",
+"rmsg": " unused variable: `_`",
+"why": ""
+},
+{
+"gid": 54,
+"nos": [
+97
+],
+"file": "pro1/ex4/ex4-3.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 55,
+"nos": [
+98,
+99
+],
+"file": "pro1/ex4/ex4-3.c",
+"code": "W5",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "pow は Rust では数値の powf メソッドなので、#include（use）忘れが起きない"
+},
+{
+"gid": 56,
+"nos": [
+100
+],
+"file": "pro1/ex4/ex4-3.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 57,
+"nos": [
+101
+],
+"file": "pro1/ex4/ex4-3.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない"
+},
+{
+"gid": 58,
+"nos": [
+102
+],
+"file": "pro1/ex4/ex4-3.c",
+"code": "E4",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0277]: cannot calculate the remainder of `f64` divided by `{integer}`",
+"why": ""
+},
+{
+"gid": 59,
+"nos": [
+103,
+104
+],
+"file": "pro1/ex4/ex4-4.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `n` in this scope",
+"why": ""
+},
+{
+"gid": 60,
+"nos": [
+105,
+106
+],
+"file": "pro1/ex4/ex4-4.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 61,
+"nos": [
+107
+],
+"file": "pro1/ex4/ex4-4.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: unexpected closing delimiter: `}`",
+"why": ""
+},
+{
+"gid": 62,
+"nos": [
+108
+],
+"file": "pro1/ex4/ex4-4.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+{
+"gid": 63,
+"nos": [
+109
+],
+"file": "pro1/ex4/ex4-5.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+{
+"gid": 64,
+"nos": [
+110
+],
+"file": "pro1/ex4/ex4-5.c",
+"code": "W9",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `{`, found `;`",
+"why": ""
+},
+{
+"gid": 65,
+"nos": [
+111
+],
+"file": "pro1/ex5/ex5-1.c",
+"code": "W5",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinltn` in this scope",
+"why": ""
+},
+{
+"gid": 66,
+"nos": [
+112
+],
+"file": "pro1/ex5/ex5-2.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 67,
+"nos": [
+113
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `a` in this scope",
+"why": ""
+},
+{
+"gid": 68,
+"nos": [
+114
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected expression, found `}`",
+"why": ""
+},
+{
+"gid": 69,
+"nos": [
+115
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "E4",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 70,
+"nos": [
+116,
+117
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `m`",
+"why": ""
+},
+{
+"gid": 71,
+"nos": [
+118
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "W5",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find function `raed_into` in this scope",
+"why": ""
+},
+{
+"gid": 72,
+"nos": [
+119
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "W10",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 73,
+"nos": [
+120
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 74,
+"nos": [
+121
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない"
+},
+{
+"gid": 75,
+"nos": [
+122
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 76,
+"nos": [
+123,
+124
+],
+"file": "pro1/ex6/ex6-1.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `x` isn't initialized",
+"why": ""
+},
+{
+"gid": 77,
+"nos": [
+125
+],
+"file": "pro1/ex6/ex6-4.c",
+"code": "W5",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `pirnt` in this scope",
+"why": ""
+},
+{
+"gid": 78,
+"nos": [
+126
+],
+"file": "pro1/ex6/ex6-4.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `r` is possibly-uninitialized",
+"why": ""
+},
+{
+"gid": 79,
+"nos": [
+127
+],
+"file": "pro1/ex6/ex6-5.c",
+"code": "E4",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `a` in this scope",
+"why": ""
+},
+{
+"gid": 80,
+"nos": [
+128
+],
+"file": "pro1/ex6/ex6-5.c",
+"code": "W5",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "abs は Rust では数値の abs メソッドなので、#include 忘れも、double に int 用の abs を使うミスも起きない"
+},
+{
+"gid": 81,
+"nos": [
+129
+],
+"file": "pro1/ex6/ex6-5.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 82,
+"nos": [
+130
+],
+"file": "pro1/ex/ex1-1.c",
+"code": "E3",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "同じ結果",
+"rclass": "Google設定でエラー",
+"rmsg": " unused variable: `_`",
+"why": ""
+},
+{
+"gid": 83,
+"nos": [
+131
+],
+"file": "pro1/game/fireworks.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `c` in this scope",
+"why": ""
+},
+{
+"gid": 84,
+"nos": [
+132
+],
+"file": "pro1/game/fireworks.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+{
+"gid": 85,
+"nos": [
+133
+],
+"file": "pro1/game/fireworks.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: unknown start of token: \\",
+"why": ""
+},
+{
+"gid": 86,
+"nos": [
+134,
+135
+],
+"file": "pro1/game/fireworks.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected one of `!`, `.`, `::`, `;`, `?`, `{`, `}`, or an operator, found `led_canvas_set_pixel`",
+"why": ""
+},
+{
+"gid": 87,
+"nos": [
+136,
+137
+],
+"file": "pro1/game/fireworks.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `led_canvas_display`",
+"why": ""
+},
+{
+"gid": 88,
+"nos": [
+138,
+139
+],
+"file": "pro1/game/fireworks.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected one of `!`, `.`, `::`, `;`, `?`, `{`, `}`, or an operator, found `led_canvas_set_pixel`",
+"why": ""
+},
+{
+"gid": 89,
+"nos": [
+140
+],
+"file": "pro1/game/fireworks.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected expression, found `)`",
+"why": ""
+},
+{
+"gid": 90,
+"nos": [
+141
+],
+"file": "pro1/game/fireworks.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: unexpected closing delimiter: `}`",
+"why": ""
+},
+{
+"gid": 91,
+"nos": [
+142
+],
+"file": "pro1/game/fireworks.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `r`",
+"why": ""
+},
+{
+"gid": 92,
+"nos": [
+143
+],
+"file": "pro1/game/fireworks.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: unexpected closing delimiter: `}`",
+"why": ""
+},
+{
+"gid": 93,
+"nos": [
+144,
+145
+],
+"file": "pro1/samp1-3.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `read_into`",
+"why": ""
+},
+{
+"gid": 94,
+"nos": [
+146
+],
+"file": "pro1/samp1-4.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+{
+"gid": 95,
+"nos": [
+147
+],
+"file": "pro1/samp2-1.c",
+"code": "W7",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: this arithmetic operation will overflow",
+"why": ""
+},
+{
+"gid": 96,
+"nos": [
+148
+],
+"file": "pro1/samp2-1.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: mismatched closing delimiter: `}`",
+"why": ""
+},
+{
+"gid": 97,
+"nos": [
+149
+],
+"file": "pro1/samp3/samp3-4.c",
+"code": "W5",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinft` in this scope",
+"why": ""
+},
+{
+"gid": 98,
+"nos": [
+150,
+151,
+152
+],
+"file": "pro1/samp3/samp3-4.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find function `srand` in this scope",
+"why": ""
+},
+{
+"gid": 99,
+"nos": [
+153
+],
+"file": "pro1/samp3/samp3-4.c",
+"code": "W5",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find function `tiem` in this scope",
+"why": ""
+},
+{
+"gid": 100,
+"nos": [
+157
+],
+"file": "pro1/samp3/samp3-5.c",
+"code": "W4",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 101,
+"nos": [
+161
+],
+"file": "pro1/samp3/samp3-5.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 102,
+"nos": [
+162
+],
+"file": "pro1/samp5/samp5-3.c",
+"code": "W10",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "結果が違う",
+"rclass": "Google設定でエラー",
+"rmsg": " useless assignment of variable of type `_` to itself",
+"why": ""
+},
+{
+"gid": 103,
+"nos": [
+163
+],
+"file": "pro1/samp6/samp6-2.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+{
+"gid": 104,
+"nos": [
+164
+],
+"file": "pro1/samp6/samp6-4.c",
+"code": "W5",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `pritn` in this scope",
+"why": ""
+},
+{
+"gid": 105,
+"nos": [
+165,
+166
+],
+"file": "pro2/Week1/1-1.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: unknown start of token: \\",
+"why": ""
+},
+{
+"gid": 106,
+"nos": [
+167
+],
+"file": "pro2/Week1/1-1.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 107,
+"nos": [
+168
+],
+"file": "pro2/Week1/1-1.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない"
+},
+{
+"gid": 108,
+"nos": [
+169
+],
+"file": "pro2/Week1/1-1.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない"
+},
+{
+"gid": 109,
+"nos": [
+170
+],
+"file": "pro2/Week1/b.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない"
+},
+{
+"gid": 110,
+"nos": [
+171
+],
+"file": "pro2/Week1/c.c",
+"code": "W5",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find function `raed_inot` in this scope",
+"why": ""
+},
+{
+"gid": 111,
+"nos": [
+172
+],
+"file": "pro2/Week1/c.c",
+"code": "W5",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find function `raed_into` in this scope",
+"why": ""
+},
+{
+"gid": 112,
+"nos": [
+173
+],
+"file": "pro2/Week1/c.c",
+"code": "W3",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0061]: this function takes 1 argument but 0 arguments were supplied",
+"why": ""
+},
+{
+"gid": 113,
+"nos": [
+174
+],
+"file": "pro2/Week1/c.c",
+"code": "W9",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "Rust は if に { } が必須なので、{ } なしで2行目が if の外に出るミスが書けない"
+},
+{
+"gid": 114,
+"nos": [
+175
+],
+"file": "pro2/Week1/c.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected one of `!` or `::`, found `main`",
+"why": ""
+},
+{
+"gid": 115,
+"nos": [
+176
+],
+"file": "pro2/Week1/ex1-1.c",
+"code": "W3",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given",
+"why": ""
+},
+{
+"gid": 116,
+"nos": [
+177
+],
+"file": "pro2/Week1/ex1-1.c",
+"code": "W3",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given",
+"why": ""
+},
+{
+"gid": 117,
+"nos": [
+178
+],
+"file": "pro2/Week1/ex1-1.c",
+"code": "W3",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given",
+"why": ""
+},
+{
+"gid": 118,
+"nos": [
+179
+],
+"file": "pro2/Week1/ex1-1.c",
+"code": "W3",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given",
+"why": ""
+},
+{
+"gid": 119,
+"nos": [
+180
+],
+"file": "pro2/Week1/ex1-1.c",
+"code": "W3",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given",
+"why": ""
+},
+{
+"gid": 120,
+"nos": [
+181
+],
+"file": "pro2/Week1/ex1-1.c",
+"code": "W4",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 121,
+"nos": [
+182
+],
+"file": "pro2/Week1/ex1-1.c",
+"code": "W4",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 122,
+"nos": [
+183
+],
+"file": "pro2/Week1/ex1-1.c",
+"code": "W4",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 123,
+"nos": [
+184
+],
+"file": "pro2/Week1/ex1-1.c",
+"code": "W4",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 124,
+"nos": [
+185
+],
+"file": "pro2/Week1/ex1-1.c",
+"code": "W4",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 125,
+"nos": [
+186
+],
+"file": "pro2/Week2/2-1.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 126,
+"nos": [
+187
+],
+"file": "pro2/Week2/ex2-1.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "型なしのグローバル変数 n=0; → main の中の let mut n = 0; は Rust では型推論で正しく動く"
+},
+{
+"gid": 127,
+"nos": [
+188
+],
+"file": "pro2/Week2/ex2-2.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "型なしのグローバル変数 x=1; → main の中の let mut x = 1; は Rust では型推論で正しく動く"
+},
+{
+"gid": 128,
+"nos": [
+189,
+190
+],
+"file": "pro2/Week2/ex2-3.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "同じ結果",
+"rclass": "Google設定でエラー",
+"rmsg": " unused variable: `_`",
+"why": "型なしのグローバル変数 x=10000000; → main の中の let x = 10000000;（同じ名前の2回目の宣言）"
+},
+{
+"gid": 129,
+"nos": [
+191,
+192
+],
+"file": "pro2/Week2/ex2-3.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "同じ結果",
+"rclass": "Google設定でエラー",
+"rmsg": " unused variable: `_`",
+"why": "型なしのグローバル変数 x=10000000.0; → main の中の let x = 10000000.0;（同じ名前の2回目の宣言）"
+},
+{
+"gid": 130,
+"nos": [
+193
+],
+"file": "pro2/Week2/ex2-3.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない"
+},
+{
+"gid": 131,
+"nos": [
+194
+],
+"file": "pro2/Week2/ex2-3.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": "%lld で double を表示 → Rust では表示はできるが、型を double のままにすると結果が整数でなくなる"
+},
+{
+"gid": 132,
+"nos": [
+195
+],
+"file": "pro2/Week3/3-1.c",
+"code": "W3",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given",
+"why": ""
+},
+{
+"gid": 133,
+"nos": [
+196
+],
+"file": "pro2/Week3/3-1.c",
+"code": "W3",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given",
+"why": ""
+},
+{
+"gid": 134,
+"nos": [
+197
+],
+"file": "pro2/Week3/3-2.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 135,
+"nos": [
+198
+],
+"file": "pro2/Week3/3-2.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 136,
+"nos": [
+199
+],
+"file": "pro2/Week3/ex3-2.c",
+"code": "W5",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `pritn` in this scope",
+"why": ""
+},
+{
+"gid": 137,
+"nos": [
+200
+],
+"file": "pro2/Week3/ex3-3.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "printf の %f → Rust の {} は型を書かないので、型の食い違いが書けない"
+},
+{
+"gid": 138,
+"nos": [
+201
+],
+"file": "pro2/Week3/ex3-3.c",
+"code": "W5",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: cannot find macro `prinft` in this scope",
+"why": ""
+},
+{
+"gid": 139,
+"nos": [
+202
+],
+"file": "pro2/Week4/4-1.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found keyword `if`",
+"why": ""
+},
+{
+"gid": 140,
+"nos": [
+203,
+204
+],
+"file": "pro2/Week4/ex4-2.c",
+"code": "W8",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: character literal may only contain one codepoint",
+"why": ""
+},
+{
+"gid": 141,
+"nos": [
+205
+],
+"file": "pro2/Week4/ex4-3.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 142,
+"nos": [
+206
+],
+"file": "pro2/Week4/ex4-3.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 143,
+"nos": [
+207
+],
+"file": "pro2/Week4/ex4-3.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 144,
+"nos": [
+208
+],
+"file": "pro2/Week4/ex4-3.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 145,
+"nos": [
+209
+],
+"file": "pro2/Week4/ex4-3.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 146,
+"nos": [
+210
+],
+"file": "pro2/Week4/ex4-3.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 147,
+"nos": [
+211
+],
+"file": "pro2/Week4/ex4-3.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 148,
+"nos": [
+212
+],
+"file": "pro2/Week4/ex4-3.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 149,
+"nos": [
+213
+],
+"file": "pro2/Week4/ex4-3.c",
+"code": "W3",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: argument never used",
+"why": ""
+},
+{
+"gid": 150,
+"nos": [
+214
+],
+"file": "pro2/Week4/ex4-3.c",
+"code": "W3",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: argument never used",
+"why": ""
+},
+{
+"gid": 151,
+"nos": [
+215
+],
+"file": "pro2/Week4/ex4-3.c",
+"code": "W3",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: argument never used",
+"why": ""
+},
+{
+"gid": 152,
+"nos": [
+216
+],
+"file": "pro2/Week4/ex4-3.c",
+"code": "W3",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: argument never used",
+"why": ""
+},
+{
+"gid": 153,
+"nos": [
+217,
+218
+],
+"file": "pro2/Week4/ex4-4.c",
+"code": "E3",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected a pattern, found an expression",
+"why": ""
+},
+{
+"gid": 154,
+"nos": [
+219,
+220
+],
+"file": "pro2/Week4/ex4-5.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `,`, found `n`",
+"why": ""
+},
+{
+"gid": 155,
+"nos": [
+221
+],
+"file": "pro2/Week5/5-1.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 156,
+"nos": [
+222
+],
+"file": "pro2/Week5/5-1.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0277]: `fn(f64) -> f64 {circumeference}` doesn't implement `std::fmt::Display`",
+"why": ""
+},
+{
+"gid": 157,
+"nos": [
+223
+],
+"file": "pro2/Week5/5-2.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `hight` in this scope",
+"why": ""
+},
+{
+"gid": 158,
+"nos": [
+224
+],
+"file": "pro2/Week5/5-2.c",
+"code": "W1",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 159,
+"nos": [
+225,
+226
+],
+"file": "pro2/Week5/ex5-1.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 160,
+"nos": [
+227
+],
+"file": "pro2/Week5/ex5-1.c",
+"code": "W6",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 161,
+"nos": [
+228
+],
+"file": "pro2/Week5/ex5-1.c",
+"code": "W4",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 162,
+"nos": [
+229
+],
+"file": "pro2/Week5/ex5-1.c",
+"code": "W4",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 163,
+"nos": [
+230
+],
+"file": "pro2/Week5/ex5-1.c",
+"code": "W5",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find function `read_itno` in this scope",
+"why": ""
+},
+{
+"gid": 164,
+"nos": [
+231
+],
+"file": "pro2/Week5/ex5-1.c",
+"code": "E4",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 165,
+"nos": [
+232
+],
+"file": "pro2/Week5/ex5-2.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `a` in this scope",
+"why": ""
+},
+{
+"gid": 166,
+"nos": [
+233
+],
+"file": "pro2/Week5/ex5-2.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `b` in this scope",
+"why": ""
+},
+{
+"gid": 167,
+"nos": [
+234
+],
+"file": "pro2/Week5/ex5-4.c",
+"code": "E3",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `n` isn't initialized",
+"why": ""
+},
+{
+"gid": 168,
+"nos": [
+235,
+236
+],
+"file": "pro2/Week6/6-1.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `score` in this scope",
+"why": ""
+},
+{
+"gid": 169,
+"nos": [
+237
+],
+"file": "pro2/Week6/6-1.c",
+"code": "W6",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 170,
+"nos": [
+238
+],
+"file": "pro2/Week6/6-2.c",
+"code": "E4",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0618]: expected function, found `i32`",
+"why": ""
+},
+{
+"gid": 171,
+"nos": [
+239
+],
+"file": "pro2/Week6/6-2.c",
+"code": "W6",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 172,
+"nos": [
+240
+],
+"file": "pro2/Week6/ex6-1.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `i`",
+"why": ""
+},
+{
+"gid": 173,
+"nos": [
+241,
+242
+],
+"file": "pro2/Week6/ex6-1.c",
+"code": "W6",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: arguments to this function are incorrect",
+"why": ""
+},
+{
+"gid": 174,
+"nos": [
+243
+],
+"file": "pro2/Week6/ex6-1.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected one of `)`, `,`, `.`, `?`, or an operator, found `;`",
+"why": ""
+},
+{
+"gid": 175,
+"nos": [
+244,
+245
+],
+"file": "pro2/Week6/ex6-1.c",
+"code": "W10",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 176,
+"nos": [
+246,
+247
+],
+"file": "pro2/Week6/ex6-1.c",
+"code": "W6",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0277]: cannot add-assign `i32` to `f64`",
+"why": ""
+},
+{
+"gid": 177,
+"nos": [
+248,
+249
+],
+"file": "pro2/Week6/ex6-2.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: mismatched closing delimiter: `}`",
+"why": ""
+},
+{
+"gid": 178,
+"nos": [
+250
+],
+"file": "pro2/Week6/ex6-2.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `a` in this scope",
+"why": ""
+},
+{
+"gid": 179,
+"nos": [
+251
+],
+"file": "pro2/Week6/ex6-2.c",
+"code": "W3",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: argument never used",
+"why": ""
+},
+{
+"gid": 180,
+"nos": [
+252
+],
+"file": "pro2/Week6/ex6-3.c",
+"code": "E4",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0277]: `()` doesn't implement `std::fmt::Display`",
+"why": ""
+},
+{
+"gid": 181,
+"nos": [
+253
+],
+"file": "pro2/Week8/8-1.c",
+"code": "W3",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found keyword `let`",
+"why": ""
+},
+{
+"gid": 182,
+"nos": [
+254
+],
+"file": "pro2/Week8/8-1.c",
+"code": "W6",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0277]: the type `str` cannot be indexed by `{integer}`",
+"why": ""
+},
+{
+"gid": 183,
+"nos": [
+255,
+256
+],
+"file": "pro2/Week8/8-1.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `;`, found `x`",
+"why": ""
+},
+{
+"gid": 184,
+"nos": [
+257,
+258
+],
+"file": "pro2/Week8/8-2.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: expected `,`, found `{`",
+"why": ""
+},
+{
+"gid": 185,
+"nos": [
+259
+],
+"file": "pro2/Week8/8-2.c",
+"code": "E1",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0425]: cannot find value `i` in this scope",
+"why": ""
+},
+{
+"gid": 186,
+"nos": [
+260
+],
+"file": "pro2/Week8/8-2.c",
+"code": "W2",
+"excluded": false,
+"c_gcc": "警告のみ",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "printf の %c → Rust の {} は型を書かないので、文字と文字列の食い違いが書けない"
+},
+{
+"gid": 187,
+"nos": [
+261
+],
+"file": "pro2/Week8/8-2.c",
+"code": "E2",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error: empty character literal",
+"why": ""
+},
+{
+"gid": 188,
+"nos": [
+262
+],
+"file": "pro1/ex2/Challenge2-A.c",
+"code": "L3",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 189,
+"nos": [
+263
+],
+"file": "pro1/ex2/Challenge2-A.c",
+"code": "L3",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 190,
+"nos": [
+264
+],
+"file": "pro1/ex2/Challenge2-A.c",
+"code": "L2",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "警告のみ",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 191,
+"nos": [
+265
+],
+"file": "pro1/ex2/Challenge2-A.c",
+"code": "L3",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 192,
+"nos": [
+266
+],
+"file": "pro1/ex2/Challenge2-B.c",
+"code": "L2",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "結果が違う",
+"rclass": "Google設定でエラー",
+"rmsg": " variable does not need to be mutable",
+"why": ""
+},
+{
+"gid": 193,
+"nos": [
+267
+],
+"file": "pro1/ex2/Challenge2-B.c",
+"code": "L2",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 194,
+"nos": [
+268
+],
+"file": "pro1/ex3/Challenge3-B.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "実行時に停止: thread 'main' (9070) panicked at /home/claude/work/real/rbuild/pro1_ex3_Challenge3_B_c_194b_70a18754f0.rs:99:9:",
+"rclass": "実行時に停止",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 195,
+"nos": [
+269
+],
+"file": "pro1/ex3/Challenge3-B.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 196,
+"nos": [
+270
+],
+"file": "pro1/ex3/Challenge3-B.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 197,
+"nos": [
+271
+],
+"file": "pro1/ex3/ex3-2.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 198,
+"nos": [
+272
+],
+"file": "pro1/ex3/ex3-3.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 199,
+"nos": [
+273
+],
+"file": "pro1/ex3/ex3-4.c",
+"code": "L3",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "終わらない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 200,
+"nos": [
+274
+],
+"file": "pro1/ex3/ex3-4.c",
+"code": "L1",
+"excluded": true,
+"why": "見直したらミスではなかった（整数では x>answer+9 と x>=answer+10 は同じ意味）"
+},
+{
+"gid": 201,
+"nos": [
+275
+],
+"file": "pro1/ex4/ex4-1.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 202,
+"nos": [
+276
+],
+"file": "pro1/ex4/ex4-3.c",
+"code": "L4",
+"excluded": true,
+"why": "見直したらミスではなかった（1.0 があるので C でも小数で計算される）"
+},
+{
+"gid": 203,
+"nos": [
+277
+],
+"file": "pro1/ex4/ex4-3.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 204,
+"nos": [
+278
+],
+"file": "pro1/ex4/ex4-5.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 205,
+"nos": [
+279
+],
+"file": "pro1/ex5/ex5-1.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 206,
+"nos": [
+280
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "L2",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "実行時に停止: thread 'main' (9950) panicked at /home/claude/work/real/rbuild/pro1_ex5_ex5_3_c_206b_ac5a6b5350.rs:38:20:",
+"rclass": "実行時に停止",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 207,
+"nos": [
+281
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "L4",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 208,
+"nos": [
+282
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "L3",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 209,
+"nos": [
+283
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "L2",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "実行時に停止: thread 'main' (10060) panicked at /home/claude/work/real/rbuild/pro1_ex5_ex5_3_c_209b_a747f3e4d2.rs:48:30:",
+"rclass": "実行時に停止",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 210,
+"nos": [
+284
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "L3",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 211,
+"nos": [
+285
+],
+"file": "pro1/ex5/ex5-3.c",
+"code": "L5",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `spread` is possibly-uninitialized",
+"why": ""
+},
+{
+"gid": 212,
+"nos": [
+286
+],
+"file": "pro1/ex6/ex6-3.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 213,
+"nos": [
+287
+],
+"file": "pro1/ex6/ex6-3.c",
+"code": "L3",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 214,
+"nos": [
+288
+],
+"file": "pro1/ex6/ex6-4.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 215,
+"nos": [
+289
+],
+"file": "pro1/ex6/ex6-5.c",
+"code": "L3",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 216,
+"nos": [
+290
+],
+"file": "pro1/ex6/ex6-5.c",
+"code": "L3",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 217,
+"nos": [
+291
+],
+"file": "pro1/ex6/ex6-5.c",
+"code": "L5",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `s` is possibly-uninitialized",
+"why": ""
+},
+{
+"gid": 218,
+"nos": [
+292
+],
+"file": "pro1/samp3/samp3-5.c",
+"code": "L2",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 219,
+"nos": [
+293
+],
+"file": "pro1/samp3/samp3-5.c",
+"code": "L2",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "終わらない",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 220,
+"nos": [
+294
+],
+"file": "pro1/samp4/samp4-1.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 221,
+"nos": [
+295
+],
+"file": "pro1/samp5/samp5-4.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "エラー",
+"run": "実行時に停止: thread 'main' (6013) panicked at /home/claude/work/real/rbuild/pro1_samp5_samp5_4_c_221b_12ad9ec275.rs:35:27:",
+"rclass": "Google設定でエラー",
+"rmsg": "error: variables in the condition are not mutated in the loop body",
+"why": ""
+},
+{
+"gid": 222,
+"nos": [
+296
+],
+"file": "pro1/samp5/samp5-4.c",
+"code": "L6",
+"excluded": true,
+"why": "見直したらミスではなかった（当時のループは 0〜8 で 9×9 の配列に収まっていた。本当の原因は #221 の ++i）"
+},
+{
+"gid": 223,
+"nos": [
+297
+],
+"file": "pro2/Week1/ex1-1.c",
+"code": "L3",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "エラー",
+"run": "結果が違う",
+"rclass": "Google設定でエラー",
+"rmsg": " these `_` branches have the same condition",
+"why": ""
+},
+{
+"gid": 224,
+"nos": [
+298
+],
+"file": "pro2/Week1/ex1-1.c",
+"code": "L3",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 225,
+"nos": [
+299
+],
+"file": "pro2/Week2/2-1.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 226,
+"nos": [
+300
+],
+"file": "pro2/Week2/2-2.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 227,
+"nos": [
+301
+],
+"file": "pro2/Week2/ex2-1.c",
+"code": "L3",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 228,
+"nos": [
+302
+],
+"file": "pro2/Week2/ex2-2.c",
+"code": "L7",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "実行時に停止: thread 'main' (5650) panicked at /home/claude/work/real/rbuild/pro2_Week2_ex2_2_c_228b_9ad9dc8b4d.rs:25:12:",
+"rclass": "実行時に停止",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 229,
+"nos": [
+303
+],
+"file": "pro2/Week3/ex3-2.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "実行時に停止: thread 'main' (4576) panicked at /home/claude/work/real/rbuild/pro2_Week3_ex3_2_c_229b_c9470b7a15.rs:25:9:",
+"rclass": "実行時に停止",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 230,
+"nos": [
+304
+],
+"file": "pro2/Week3/ex3-3.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 231,
+"nos": [
+305
+],
+"file": "pro2/Week4/4-1.c",
+"code": "L6",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "実行時に停止: thread 'main' (3228) panicked at /home/claude/work/real/rbuild/pro2_Week4_4_1_c_231b_748daa403c.rs:19:31:",
+"rclass": "実行時に停止",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 232,
+"nos": [
+306
+],
+"file": "pro2/Week4/4-1.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 233,
+"nos": [
+307
+],
+"file": "pro2/Week4/ex4-1.c",
+"code": "L2",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 234,
+"nos": [
+308
+],
+"file": "pro2/Week4/ex4-1.c",
+"code": "L2",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 235,
+"nos": [
+309
+],
+"file": "pro2/Week4/ex4-2.c",
+"code": "L6",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 236,
+"nos": [
+310
+],
+"file": "pro2/Week4/ex4-4.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 237,
+"nos": [
+311
+],
+"file": "pro2/Week4/ex4-4.c",
+"code": "L2",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 238,
+"nos": [
+312
+],
+"file": "pro2/Week4/ex4-4.c",
+"code": "L2",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 239,
+"nos": [
+313
+],
+"file": "pro2/Week4/ex4-5.c",
+"code": "L6",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "実行時に停止: thread 'main' (6271) panicked at /home/claude/work/real/rbuild/pro2_Week4_ex4_5_c_239b_48039b87e6.rs:39:22:",
+"rclass": "実行時に停止",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 240,
+"nos": [
+314
+],
+"file": "pro2/Week5/ex5-4.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 241,
+"nos": [
+315
+],
+"file": "pro2/Week5/ex5-4.c",
+"code": "L1",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 242,
+"nos": [
+316
+],
+"file": "pro2/Week5/ex5-4.c",
+"code": "L2",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `x` isn't initialized",
+"why": ""
+},
+{
+"gid": 243,
+"nos": [
+317
+],
+"file": "pro2/Week6/6-2.c",
+"code": "L5",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0381]: used binding `average` is possibly-uninitialized",
+"why": ""
+},
+{
+"gid": 244,
+"nos": [
+318
+],
+"file": "pro2/Week6/6-2.c",
+"code": "L4",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+{
+"gid": 245,
+"nos": [
+319
+],
+"file": "pro2/Week6/6-2.c",
+"code": "L3",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 246,
+"nos": [
+320
+],
+"file": "pro2/Week6/ex6-1.c",
+"code": "L4",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rclass": "コンパイルエラー",
+"rmsg": "error[E0277]: cannot add-assign `f64` to `i32`",
+"why": ""
+},
+{
+"gid": 247,
+"nos": [
+321
+],
+"file": "pro2/Week6/ex6-2.c",
+"code": "L3",
+"excluded": false,
+"c_gcc": "何も出ない",
+"c_wall": "何も出ない",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rclass": "見逃し（結果が違う）",
+"rmsg": "",
+"why": ""
+},
+{
+"gid": 258,
+"nos": [
+334
+],
+"file": "pro1/ex3/Challenge3-Kaguya.c",
+"code": "E5",
+"excluded": false,
+"c_gcc": "エラー",
+"c_wall": "エラー",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"rclass": "書けない（そのまま正しく動く）",
+"rmsg": "",
+"why": "for の中で変数を宣言するのは Rust では普通の書き方なので、この規則違反は起きない"
+}
+]

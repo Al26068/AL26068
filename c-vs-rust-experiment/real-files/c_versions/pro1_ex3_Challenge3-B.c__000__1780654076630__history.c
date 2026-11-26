@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+int main(void){
+    int tutu[5],nedan[5],zaiko[5],uketori[5],oturi[5];
+    int azukari,turiari;
+    int i,j,k,l,m;
+
+    for(i=0;i<4;i++){
+    zaiko[i]=4;};
+    char syouhin[5][20]={
+        "麦茶:120円",
+        "緑茶:130円",
+        "珈琲:140円",
+        "紅茶;150円",
+        "牛乳:160円"
+    };
+    int nedan[5]={
+        "120",
+        "120",
+        "140",
+        "150",
+        "160"
+    };
+
+    for(i=0;i<5;i++){
+        printf("%s %d \n",syouhin[i],zaiko[i]);
+    };
+
+    printf("お金を入れてください\n 1000円-->\n500円-->\n100円-->\n50円-->\n10円-->\n");
+    for(i=0;i<5;i++){
+        scanf("%d",&uketori[i]);
+        tutu[i]=uketori[i]+tutu[i];
+        if(tutu[i]>10){
+            oturi[i]=tutu[i]-10;
+        }
+    }
+    int turi = 0;
+    for(i=0;i<5;i++){
+        if(oturi[i]>0){
+            turiari=1;
+        }
+    }
+    if(turiari=1){
+        printf("おつりです\n1000円-->%d\n500円-->%d\n100円-->%d\n50円-->%d\n10円-->%d\n",oturi[0],oturi[1],oturi[2],oturi[3],oturi[4]);
+    } 
+    azukari=1000*uketori[0]+500*uketori[1]+100*uketori[2]+50*uketori[3]+10*uketori[4];
+    printf("お預かりは%d円です\n買える商品は以下です",azukari);
+    printf("%s",syouhin[])
+    
+
+}

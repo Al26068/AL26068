@@ -1,0 +1,1858 @@
+{
+"95": {
+"file": "pro1/samp2-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: this arithmetic operation will overflow",
+"why": ""
+},
+"96": {
+"file": "pro1/samp2-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: mismatched closing delimiter: `}`",
+"why": ""
+},
+"220": {
+"file": "pro1/samp4/samp4-1.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"105": {
+"file": "pro2/Week1/1-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: unknown start of token: \\",
+"why": ""
+},
+"106": {
+"file": "pro2/Week1/1-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"107": {
+"file": "pro2/Week1/1-1.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない",
+"rmsg": ""
+},
+"108": {
+"file": "pro2/Week1/1-1.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない",
+"rmsg": ""
+},
+"109": {
+"file": "pro2/Week1/b.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない",
+"rmsg": ""
+},
+"155": {
+"file": "pro2/Week5/5-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"156": {
+"file": "pro2/Week5/5-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0277]: `fn(f64) -> f64 {circumeference}` doesn't implement `std::fmt::Display`",
+"why": ""
+},
+"82": {
+"file": "pro1/ex/ex1-1.c",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "同じ結果",
+"rmsg": " unused variable: `_`",
+"why": ""
+},
+"45": {
+"file": "pro1/ex3/ex3-1.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rmsg": "",
+"why": ""
+},
+"125": {
+"file": "pro2/Week2/2-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"225": {
+"file": "pro2/Week2/2-1.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"128": {
+"file": "pro2/Week2/ex2-3.c",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "同じ結果",
+"rmsg": " unused variable: `_`",
+"why": "型なしのグローバル変数 x=10000000; → main の中の let x = 10000000;（同じ名前の2回目の宣言）"
+},
+"129": {
+"file": "pro2/Week2/ex2-3.c",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "同じ結果",
+"rmsg": " unused variable: `_`",
+"why": "型なしのグローバル変数 x=10000000.0; → main の中の let x = 10000000.0;（同じ名前の2回目の宣言）"
+},
+"130": {
+"file": "pro2/Week2/ex2-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない",
+"rmsg": ""
+},
+"131": {
+"file": "pro2/Week2/ex2-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": "%lld で double を表示 → Rust では表示はできるが、型を double のままにすると結果が整数でなくなる"
+},
+"132": {
+"file": "pro2/Week3/3-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given",
+"why": ""
+},
+"133": {
+"file": "pro2/Week3/3-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given",
+"why": ""
+},
+"93": {
+"file": "pro1/samp1-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `;`, found `read_into`",
+"why": ""
+},
+"110": {
+"file": "pro2/Week1/c.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find function `raed_inot` in this scope",
+"why": ""
+},
+"111": {
+"file": "pro2/Week1/c.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find function `raed_into` in this scope",
+"why": ""
+},
+"112": {
+"file": "pro2/Week1/c.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0061]: this function takes 1 argument but 0 arguments were supplied",
+"why": ""
+},
+"113": {
+"file": "pro2/Week1/c.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "Rust は if に { } が必須なので、{ } なしで2行目が if の外に出るミスが書けない",
+"rmsg": ""
+},
+"114": {
+"file": "pro2/Week1/c.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected one of `!` or `::`, found `main`",
+"why": ""
+},
+"197": {
+"file": "pro1/ex3/ex3-2.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"201": {
+"file": "pro1/ex4/ex4-1.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"59": {
+"file": "pro1/ex4/ex4-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find value `n` in this scope",
+"why": ""
+},
+"60": {
+"file": "pro1/ex4/ex4-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"61": {
+"file": "pro1/ex4/ex4-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: unexpected closing delimiter: `}`",
+"why": ""
+},
+"62": {
+"file": "pro1/ex4/ex4-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+"102": {
+"file": "pro1/samp5/samp5-3.c",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "結果が違う",
+"rmsg": " useless assignment of variable of type `_` to itself",
+"why": ""
+},
+"139": {
+"file": "pro2/Week4/4-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `;`, found keyword `if`",
+"why": ""
+},
+"231": {
+"file": "pro2/Week4/4-1.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "実行時に停止: thread 'main' (3228) panicked at /home/claude/work/real/rbuild/pro2_Week4_4_1_c_231b_748daa403c.rs:19:31:",
+"rmsg": "",
+"why": ""
+},
+"232": {
+"file": "pro2/Week4/4-1.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"33": {
+"file": "pro1/ex2/ex2-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"34": {
+"file": "pro1/ex2/ex2-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"198": {
+"file": "pro1/ex3/ex3-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"94": {
+"file": "pro1/samp1-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+"76": {
+"file": "pro1/ex6/ex6-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0381]: used binding `x` isn't initialized",
+"why": ""
+},
+"226": {
+"file": "pro2/Week2/2-2.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"136": {
+"file": "pro2/Week3/ex3-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: cannot find macro `pritn` in this scope",
+"why": ""
+},
+"229": {
+"file": "pro2/Week3/ex3-2.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "実行時に停止: thread 'main' (4576) panicked at /home/claude/work/real/rbuild/pro2_Week3_ex3_2_c_229b_c9470b7a15.rs:25:9:",
+"rmsg": "",
+"why": ""
+},
+"66": {
+"file": "pro1/ex5/ex5-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"103": {
+"file": "pro1/samp6/samp6-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+"181": {
+"file": "pro2/Week8/8-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `;`, found keyword `let`",
+"why": ""
+},
+"182": {
+"file": "pro2/Week8/8-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0277]: the type `str` cannot be indexed by `{integer}`",
+"why": ""
+},
+"183": {
+"file": "pro2/Week8/8-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `;`, found `x`",
+"why": ""
+},
+"35": {
+"file": "pro1/ex2/ex2-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `;`, found `read_into`",
+"why": ""
+},
+"157": {
+"file": "pro2/Week5/5-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find value `hight` in this scope",
+"why": ""
+},
+"158": {
+"file": "pro2/Week5/5-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"168": {
+"file": "pro2/Week6/6-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find value `score` in this scope",
+"why": ""
+},
+"169": {
+"file": "pro2/Week6/6-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"65": {
+"file": "pro1/ex5/ex5-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: cannot find macro `prinltn` in this scope",
+"why": ""
+},
+"205": {
+"file": "pro1/ex5/ex5-1.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"212": {
+"file": "pro1/ex6/ex6-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"213": {
+"file": "pro1/ex6/ex6-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"104": {
+"file": "pro1/samp6/samp6-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: cannot find macro `pritn` in this scope",
+"why": ""
+},
+"49": {
+"file": "pro1/ex4/Challenge4-A2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find value `i` in this scope",
+"why": ""
+},
+"50": {
+"file": "pro1/ex4/Challenge4-A2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+"51": {
+"file": "pro1/ex4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `;`, found `i`",
+"why": ""
+},
+"52": {
+"file": "pro1/ex4/ex4-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない",
+"rmsg": ""
+},
+"53": {
+"file": "pro1/ex4/ex4-3.c",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "同じ結果",
+"rmsg": " unused variable: `_`",
+"why": ""
+},
+"54": {
+"file": "pro1/ex4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"55": {
+"file": "pro1/ex4/ex4-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "pow は Rust では数値の powf メソッドなので、#include（use）忘れが起きない",
+"rmsg": ""
+},
+"56": {
+"file": "pro1/ex4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"57": {
+"file": "pro1/ex4/ex4-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない",
+"rmsg": ""
+},
+"58": {
+"file": "pro1/ex4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0277]: cannot calculate the remainder of `f64` divided by `{integer}`",
+"why": ""
+},
+"202": {
+"file": "pro1/ex4/ex4-3.c",
+"rustc": "",
+"google": "",
+"run": "除外",
+"why": "見直したらミスではなかった（1.0 があるので C でも小数で計算される）",
+"rmsg": ""
+},
+"203": {
+"file": "pro1/ex4/ex4-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"63": {
+"file": "pro1/ex4/ex4-5.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+"64": {
+"file": "pro1/ex4/ex4-5.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `{`, found `;`",
+"why": ""
+},
+"204": {
+"file": "pro1/ex4/ex4-5.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"79": {
+"file": "pro1/ex6/ex6-5.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find value `a` in this scope",
+"why": ""
+},
+"80": {
+"file": "pro1/ex6/ex6-5.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "abs は Rust では数値の abs メソッドなので、#include 忘れも、double に int 用の abs を使うミスも起きない",
+"rmsg": ""
+},
+"81": {
+"file": "pro1/ex6/ex6-5.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"215": {
+"file": "pro1/ex6/ex6-5.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"216": {
+"file": "pro1/ex6/ex6-5.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"217": {
+"file": "pro1/ex6/ex6-5.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0381]: used binding `s` is possibly-uninitialized",
+"why": ""
+},
+"127": {
+"file": "pro2/Week2/ex2-2.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "型なしのグローバル変数 x=1; → main の中の let mut x = 1; は Rust では型推論で正しく動く",
+"rmsg": ""
+},
+"228": {
+"file": "pro2/Week2/ex2-2.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "実行時に停止: thread 'main' (5650) panicked at /home/claude/work/real/rbuild/pro2_Week2_ex2_2_c_228b_9ad9dc8b4d.rs:25:12:",
+"rmsg": "",
+"why": ""
+},
+"165": {
+"file": "pro2/Week5/ex5-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find value `a` in this scope",
+"why": ""
+},
+"166": {
+"file": "pro2/Week5/ex5-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find value `b` in this scope",
+"why": ""
+},
+"97": {
+"file": "pro1/samp3/samp3-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: cannot find macro `prinft` in this scope",
+"why": ""
+},
+"98": {
+"file": "pro1/samp3/samp3-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find function `srand` in this scope",
+"why": ""
+},
+"99": {
+"file": "pro1/samp3/samp3-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find function `tiem` in this scope",
+"why": ""
+},
+"221": {
+"file": "pro1/samp5/samp5-4.c",
+"rustc": "何も出ない",
+"google": "エラー",
+"run": "実行時に停止: thread 'main' (6013) panicked at /home/claude/work/real/rbuild/pro1_samp5_samp5_4_c_221b_12ad9ec275.rs:35:27:",
+"rmsg": "error: variables in the condition are not mutated in the loop body",
+"why": ""
+},
+"222": {
+"file": "pro1/samp5/samp5-4.c",
+"rustc": "",
+"google": "",
+"run": "除外",
+"why": "見直したらミスではなかった（当時のループは 0〜8 で 9×9 の配列に収まっていた。本当の原因は #221 の ++i）",
+"rmsg": ""
+},
+"170": {
+"file": "pro2/Week6/6-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0618]: expected function, found `i32`",
+"why": ""
+},
+"171": {
+"file": "pro2/Week6/6-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"243": {
+"file": "pro2/Week6/6-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0381]: used binding `average` is possibly-uninitialized",
+"why": ""
+},
+"244": {
+"file": "pro2/Week6/6-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"245": {
+"file": "pro2/Week6/6-2.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rmsg": "",
+"why": ""
+},
+"154": {
+"file": "pro2/Week4/ex4-5.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `,`, found `n`",
+"why": ""
+},
+"239": {
+"file": "pro2/Week4/ex4-5.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "実行時に停止: thread 'main' (6271) panicked at /home/claude/work/real/rbuild/pro2_Week4_ex4_5_c_239b_48039b87e6.rs:39:22:",
+"rmsg": "",
+"why": ""
+},
+"172": {
+"file": "pro2/Week6/ex6-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `;`, found `i`",
+"why": ""
+},
+"173": {
+"file": "pro2/Week6/ex6-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: arguments to this function are incorrect",
+"why": ""
+},
+"174": {
+"file": "pro2/Week6/ex6-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected one of `)`, `,`, `.`, `?`, or an operator, found `;`",
+"why": ""
+},
+"175": {
+"file": "pro2/Week6/ex6-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"176": {
+"file": "pro2/Week6/ex6-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0277]: cannot add-assign `i32` to `f64`",
+"why": ""
+},
+"246": {
+"file": "pro2/Week6/ex6-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0277]: cannot add-assign `f64` to `i32`",
+"why": ""
+},
+"134": {
+"file": "pro2/Week3/3-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"135": {
+"file": "pro2/Week3/3-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"233": {
+"file": "pro2/Week4/ex4-1.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"234": {
+"file": "pro2/Week4/ex4-1.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"140": {
+"file": "pro2/Week4/ex4-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: character literal may only contain one codepoint",
+"why": ""
+},
+"235": {
+"file": "pro2/Week4/ex4-2.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rmsg": "",
+"why": ""
+},
+"180": {
+"file": "pro2/Week6/ex6-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0277]: `()` doesn't implement `std::fmt::Display`",
+"why": ""
+},
+"137": {
+"file": "pro2/Week3/ex3-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "printf の %f → Rust の {} は型を書かないので、型の食い違いが書けない",
+"rmsg": ""
+},
+"138": {
+"file": "pro2/Week3/ex3-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: cannot find macro `prinft` in this scope",
+"why": ""
+},
+"230": {
+"file": "pro2/Week3/ex3-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"167": {
+"file": "pro2/Week5/ex5-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0381]: used binding `n` isn't initialized",
+"why": ""
+},
+"240": {
+"file": "pro2/Week5/ex5-4.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"241": {
+"file": "pro2/Week5/ex5-4.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rmsg": "",
+"why": ""
+},
+"242": {
+"file": "pro2/Week5/ex5-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0381]: used binding `x` isn't initialized",
+"why": ""
+},
+"184": {
+"file": "pro2/Week8/8-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `,`, found `{`",
+"why": ""
+},
+"185": {
+"file": "pro2/Week8/8-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find value `i` in this scope",
+"why": ""
+},
+"186": {
+"file": "pro2/Week8/8-2.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "printf の %c → Rust の {} は型を書かないので、文字と文字列の食い違いが書けない",
+"rmsg": ""
+},
+"187": {
+"file": "pro2/Week8/8-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: empty character literal",
+"why": ""
+},
+"177": {
+"file": "pro2/Week6/ex6-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: mismatched closing delimiter: `}`",
+"why": ""
+},
+"178": {
+"file": "pro2/Week6/ex6-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find value `a` in this scope",
+"why": ""
+},
+"179": {
+"file": "pro2/Week6/ex6-2.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: argument never used",
+"why": ""
+},
+"247": {
+"file": "pro2/Week6/ex6-2.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"77": {
+"file": "pro1/ex6/ex6-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: cannot find macro `pirnt` in this scope",
+"why": ""
+},
+"78": {
+"file": "pro1/ex6/ex6-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0381]: used binding `r` is possibly-uninitialized",
+"why": ""
+},
+"214": {
+"file": "pro1/ex6/ex6-4.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rmsg": "",
+"why": ""
+},
+"126": {
+"file": "pro2/Week2/ex2-1.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "型なしのグローバル変数 n=0; → main の中の let mut n = 0; は Rust では型推論で正しく動く",
+"rmsg": ""
+},
+"227": {
+"file": "pro2/Week2/ex2-1.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"153": {
+"file": "pro2/Week4/ex4-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected a pattern, found an expression",
+"why": ""
+},
+"236": {
+"file": "pro2/Week4/ex4-4.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"237": {
+"file": "pro2/Week4/ex4-4.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"238": {
+"file": "pro2/Week4/ex4-4.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"46": {
+"file": "pro1/ex3/ex3-4.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+"199": {
+"file": "pro1/ex3/ex3-4.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "終わらない",
+"rmsg": "",
+"why": ""
+},
+"200": {
+"file": "pro1/ex3/ex3-4.c",
+"rustc": "",
+"google": "",
+"run": "除外",
+"why": "見直したらミスではなかった（整数では x>answer+9 と x>=answer+10 は同じ意味）",
+"rmsg": ""
+},
+"30": {
+"file": "pro1/ex2/Challenge2-C#.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find value `a` in this scope",
+"why": ""
+},
+"31": {
+"file": "pro1/ex2/Challenge2-C#.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `;`, found `d`",
+"why": ""
+},
+"32": {
+"file": "pro1/ex2/Challenge2-C#.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: `mut` must be followed by a named binding",
+"why": ""
+},
+"16": {
+"file": "pro1/ex2/Challenge2-A.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"17": {
+"file": "pro1/ex2/Challenge2-A.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"18": {
+"file": "pro1/ex2/Challenge2-A.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"19": {
+"file": "pro1/ex2/Challenge2-A.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"20": {
+"file": "pro1/ex2/Challenge2-A.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"21": {
+"file": "pro1/ex2/Challenge2-A.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"22": {
+"file": "pro1/ex2/Challenge2-A.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0381]: used binding `dest` isn't initialized",
+"why": ""
+},
+"188": {
+"file": "pro1/ex2/Challenge2-A.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"189": {
+"file": "pro1/ex2/Challenge2-A.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"190": {
+"file": "pro1/ex2/Challenge2-A.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rmsg": "",
+"why": ""
+},
+"191": {
+"file": "pro1/ex2/Challenge2-A.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"23": {
+"file": "pro1/ex2/Challenge2-B.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected identifier, found `;`",
+"why": ""
+},
+"24": {
+"file": "pro1/ex2/Challenge2-B.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない",
+"rmsg": ""
+},
+"25": {
+"file": "pro1/ex2/Challenge2-B.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない",
+"rmsg": ""
+},
+"26": {
+"file": "pro1/ex2/Challenge2-B.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない",
+"rmsg": ""
+},
+"27": {
+"file": "pro1/ex2/Challenge2-B.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない",
+"rmsg": ""
+},
+"28": {
+"file": "pro1/ex2/Challenge2-B.c",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "同じ結果",
+"rmsg": " unnecessary braces around assigned value",
+"why": ""
+},
+"192": {
+"file": "pro1/ex2/Challenge2-B.c",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "結果が違う",
+"rmsg": " variable does not need to be mutable",
+"why": ""
+},
+"193": {
+"file": "pro1/ex2/Challenge2-B.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"29": {
+"file": "pro1/ex2/Challenge2-C.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"36": {
+"file": "pro1/ex3/Challenge3-B.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `;`, found `i`",
+"why": ""
+},
+"37": {
+"file": "pro1/ex3/Challenge3-B.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0435]: attempt to use a non-constant value in a constant",
+"why": ""
+},
+"38": {
+"file": "pro1/ex3/Challenge3-B.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected pattern, found `;`",
+"why": ""
+},
+"39": {
+"file": "pro1/ex3/Challenge3-B.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+"40": {
+"file": "pro1/ex3/Challenge3-B.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected one of `;` or `=`, found `[`",
+"why": ""
+},
+"41": {
+"file": "pro1/ex3/Challenge3-B.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"42": {
+"file": "pro1/ex3/Challenge3-B.c",
+"rustc": "警告のみ",
+"google": "エラー",
+"run": "同じ結果",
+"rmsg": " unused variable: `_`",
+"why": ""
+},
+"43": {
+"file": "pro1/ex3/Challenge3-B.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: cannot find macro `prinft` in this scope",
+"why": ""
+},
+"44": {
+"file": "pro1/ex3/Challenge3-B.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"194": {
+"file": "pro1/ex3/Challenge3-B.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "実行時に停止: thread 'main' (9070) panicked at /home/claude/work/real/rbuild/pro1_ex3_Challenge3_B_c_194b_70a18754f0.rs:99:9:",
+"rmsg": "",
+"why": ""
+},
+"195": {
+"file": "pro1/ex3/Challenge3-B.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"196": {
+"file": "pro1/ex3/Challenge3-B.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"47": {
+"file": "pro1/ex3/ex3-5.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find value `cwin` in this scope",
+"why": ""
+},
+"48": {
+"file": "pro1/ex3/ex3-5.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: unexpected closing delimiter: `}`",
+"why": ""
+},
+"100": {
+"file": "pro1/samp3/samp3-5.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"101": {
+"file": "pro1/samp3/samp3-5.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"218": {
+"file": "pro1/samp3/samp3-5.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rmsg": "",
+"why": ""
+},
+"219": {
+"file": "pro1/samp3/samp3-5.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "終わらない",
+"rmsg": "",
+"why": ""
+},
+"159": {
+"file": "pro2/Week5/ex5-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"160": {
+"file": "pro2/Week5/ex5-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"161": {
+"file": "pro2/Week5/ex5-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"162": {
+"file": "pro2/Week5/ex5-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"163": {
+"file": "pro2/Week5/ex5-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find function `read_itno` in this scope",
+"why": ""
+},
+"164": {
+"file": "pro2/Week5/ex5-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"67": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find value `a` in this scope",
+"why": ""
+},
+"68": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected expression, found `}`",
+"why": ""
+},
+"69": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"70": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `;`, found `m`",
+"why": ""
+},
+"71": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find function `raed_into` in this scope",
+"why": ""
+},
+"72": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"73": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"74": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "書けない",
+"why": "printf の %d → Rust の {} は型を書かないので、型の食い違いが書けない",
+"rmsg": ""
+},
+"75": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"206": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "実行時に停止: thread 'main' (9950) panicked at /home/claude/work/real/rbuild/pro1_ex5_ex5_3_c_206b_ac5a6b5350.rs:38:20:",
+"rmsg": "",
+"why": ""
+},
+"207": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"208": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"209": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "実行時に停止: thread 'main' (10060) panicked at /home/claude/work/real/rbuild/pro1_ex5_ex5_3_c_209b_a747f3e4d2.rs:48:30:",
+"rmsg": "",
+"why": ""
+},
+"210": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "結果が違う",
+"rmsg": "",
+"why": ""
+},
+"211": {
+"file": "pro1/ex5/ex5-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0381]: used binding `spread` is possibly-uninitialized",
+"why": ""
+},
+"115": {
+"file": "pro2/Week1/ex1-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given",
+"why": ""
+},
+"116": {
+"file": "pro2/Week1/ex1-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given",
+"why": ""
+},
+"117": {
+"file": "pro2/Week1/ex1-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given",
+"why": ""
+},
+"118": {
+"file": "pro2/Week1/ex1-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given",
+"why": ""
+},
+"119": {
+"file": "pro2/Week1/ex1-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: 1 positional argument in format string, but no arguments were given",
+"why": ""
+},
+"120": {
+"file": "pro2/Week1/ex1-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"121": {
+"file": "pro2/Week1/ex1-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"122": {
+"file": "pro2/Week1/ex1-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"123": {
+"file": "pro2/Week1/ex1-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"124": {
+"file": "pro2/Week1/ex1-1.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"223": {
+"file": "pro2/Week1/ex1-1.c",
+"rustc": "何も出ない",
+"google": "エラー",
+"run": "結果が違う",
+"rmsg": " these `_` branches have the same condition",
+"why": ""
+},
+"224": {
+"file": "pro2/Week1/ex1-1.c",
+"rustc": "何も出ない",
+"google": "何も出ない",
+"run": "同じ結果",
+"rmsg": "",
+"why": ""
+},
+"141": {
+"file": "pro2/Week4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"142": {
+"file": "pro2/Week4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"143": {
+"file": "pro2/Week4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"144": {
+"file": "pro2/Week4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"145": {
+"file": "pro2/Week4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"146": {
+"file": "pro2/Week4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"147": {
+"file": "pro2/Week4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"148": {
+"file": "pro2/Week4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0308]: mismatched types",
+"why": ""
+},
+"149": {
+"file": "pro2/Week4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: argument never used",
+"why": ""
+},
+"150": {
+"file": "pro2/Week4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: argument never used",
+"why": ""
+},
+"151": {
+"file": "pro2/Week4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: argument never used",
+"why": ""
+},
+"152": {
+"file": "pro2/Week4/ex4-3.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: argument never used",
+"why": ""
+},
+"83": {
+"file": "pro1/game/fireworks.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error[E0425]: cannot find value `c` in this scope",
+"why": ""
+},
+"84": {
+"file": "pro1/game/fireworks.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: this file contains an unclosed delimiter",
+"why": ""
+},
+"85": {
+"file": "pro1/game/fireworks.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: unknown start of token: \\",
+"why": ""
+},
+"86": {
+"file": "pro1/game/fireworks.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected one of `!`, `.`, `::`, `;`, `?`, `{`, `}`, or an operator, found `led_canvas_set_pixel`",
+"why": ""
+},
+"87": {
+"file": "pro1/game/fireworks.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `;`, found `led_canvas_display`",
+"why": ""
+},
+"88": {
+"file": "pro1/game/fireworks.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected one of `!`, `.`, `::`, `;`, `?`, `{`, `}`, or an operator, found `led_canvas_set_pixel`",
+"why": ""
+},
+"89": {
+"file": "pro1/game/fireworks.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected expression, found `)`",
+"why": ""
+},
+"90": {
+"file": "pro1/game/fireworks.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: unexpected closing delimiter: `}`",
+"why": ""
+},
+"91": {
+"file": "pro1/game/fireworks.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: expected `;`, found `r`",
+"why": ""
+},
+"92": {
+"file": "pro1/game/fireworks.c",
+"rustc": "エラー",
+"google": "エラー",
+"run": "",
+"rmsg": "error: unexpected closing delimiter: `}`",
+"why": ""
+}
+}
