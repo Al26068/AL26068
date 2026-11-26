@@ -214,7 +214,7 @@ fn main() {
     230: dict(ctx=[("        if i == 0 {", "        if i == 1 {")], bug=[("        if i == 1 {", "        if i == 0 {")]),
 })
 
-S["pro2/Week5/ex5-4.c"] = dict(base=r'''
+S["pro2/Week5/ex5-4.c"] = dict(extra="最終版でも n が 2 以下のとき t を初期化しないまま返していた（Rust では 0 で初期化しないと通らない）", base=r'''
 fn is_prime(n: i32) -> i32 {
     let mut i: i32;
     let mut t: i32 = 0;
